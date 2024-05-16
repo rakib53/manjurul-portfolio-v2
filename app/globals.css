@@ -8,6 +8,38 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face {
+  font-family: "rocGroteskLight";
+  src: url("../utils/Font/RocGrotesk-Light.woff2") format("woff2"),
+    url("../utils/Font/RocGrotesk-Light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskReg";
+  src: url("../utils/Font/RocGrotesk-Regular.woff2") format("woff2"),
+    url("../utils/Font/RocGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskMid";
+  src: url("../utils/Font/RocGrotesk-Medium.woff2") format("woff2"),
+    url("../utils/Font/RocGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskBold";
+  src: url("../utils/Font/RocGrotesk-Bold.woff2") format("woff2"),
+    url("../utils/Font/RocGrotesk-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
