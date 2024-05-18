@@ -2,7 +2,6 @@
 import { rightArrow } from "@/utils/SVG";
 import React from "react";
 import Accordion from "../components/Accordion/Accordion";
-import WhiteButton from "../components/Button";
 import Container from "../components/Container";
 import Button from "../components/Button";
 

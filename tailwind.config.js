@@ -16,6 +16,8 @@ module.exports = {
         gray900: "#2B2F38",
         dark: "#231E1E",
         dark2: "#383E49",
+        success600: "#10A760",
+        orange: "#FA6444",
       },
       backgroundColor: {
         orange: "#FA6444",
@@ -27,6 +29,7 @@ module.exports = {
       fontFamily: {
         rocGroteskBold: "rocGroteskBold, sans-serif",
         rocGroteskMid: "rocGroteskMid, sans-serif",
+        rocGroteskReg: "rocGroteskReg, sans-serif",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

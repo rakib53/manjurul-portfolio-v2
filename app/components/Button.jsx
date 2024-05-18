@@ -23,6 +23,12 @@ export default function Button({
         <span>{icon}</span>
       </>
     );
+  } else {
+    render = (
+      <>
+        <span className={labelClass}>{label}</span>
+      </>
+    );
   }
 
   return <button className={className}>{render}</button>;

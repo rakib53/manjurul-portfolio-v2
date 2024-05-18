@@ -153,3 +153,61 @@ export const resumeIcon = (
     </defs>
   </svg>
 );
+export const blackRightArrow = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <path
+      d="M4.16667 9.99996H15.8333M15.8333 9.99996L10 4.16663M15.8333 9.99996L10 15.8333"
+      stroke="#48505E"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const whiteRightArrow = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <path
+      d="M4.16667 9.99996H15.8333M15.8333 9.99996L10 4.16663M15.8333 9.99996L10 15.8333"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const eyeIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="21"
+    height="21"
+    viewBox="0 0 21 21"
+    fill="none"
+  >
+    <path
+      d="M2.76677 11.4381C2.65328 11.2584 2.59654 11.1686 2.56477 11.03C2.54091 10.9259 2.54091 10.7617 2.56477 10.6577C2.59654 10.5191 2.65328 10.4292 2.76677 10.2495C3.70461 8.76453 6.49617 5.0105 10.7503 5.0105C15.0045 5.0105 17.7961 8.76453 18.7339 10.2495C18.8474 10.4292 18.9041 10.5191 18.9359 10.6577C18.9598 10.7617 18.9598 10.9259 18.9359 11.03C18.9041 11.1686 18.8474 11.2584 18.7339 11.4381C17.7961 12.9231 15.0045 16.6772 10.7503 16.6772C6.49617 16.6772 3.70461 12.9231 2.76677 11.4381Z"
+      stroke="#5D6679"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M10.7503 13.3438C12.131 13.3438 13.2503 12.2245 13.2503 10.8438C13.2503 9.46312 12.131 8.34383 10.7503 8.34383C9.36962 8.34383 8.25034 9.46312 8.25034 10.8438C8.25034 12.2245 9.36962 13.3438 10.7503 13.3438Z"
+      stroke="#5D6679"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
