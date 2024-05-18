@@ -2,9 +2,11 @@ import React from "react";
 import Container from "@/app/components/Container";
 import Navbar from "@/app/components/Navbar";
 import Button from "@/app/components/Button";
-import { orangePlayIcon, whiteRightArrow } from "@/utils/SVG";
+import { invisibleIcon, orangePlayIcon, whiteRightArrow } from "@/utils/SVG";
 import manjurul from "../../../public/manjurul.png";
 import Image from "next/image";
+import Upwork from "../../../public/upwork.png";
+import invisible from "../../../public/invisible.png";
 
 export default function Banner() {
   return (
@@ -43,8 +45,31 @@ export default function Banner() {
             </div>
           </div>
 
-          <div>
+          <div className="relative">
             <Image src={manjurul} width={500} height={500} />
+            <div
+              className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3"
+              style={{
+                boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
+              }}
+            >
+              <Image src={invisible} />
+              <span className="text-[20px] leading-5 font-rocGroteskMid text-gray800">
+                UI/UX Designer at <br /> @Invisible studio
+              </span>
+            </div>
+
+            <div
+              className="absolute left-[-100px] bottom-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3"
+              style={{
+                boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
+              }}
+            >
+              <Image src={Upwork} />
+              <span className="text-[20px] leading-5 font-rocGroteskMid text-gray800">
+                Top rated seller <br /> at @upwok
+              </span>
+            </div>
           </div>
         </div>
       </Container>
