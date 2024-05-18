@@ -50,3 +50,106 @@ export const CheckMarkIcon = (
     ></polygon>
   </svg>
 );
+export const rightArrow = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="15"
+    height="14"
+    viewBox="0 0 15 14"
+    fill="none"
+  >
+    <path
+      d="M1.66663 6.96468H13.3333M13.3333 6.96468L7.49996 1.13135M13.3333 6.96468L7.49996 12.798"
+      stroke="#5D6679"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const orangePlus = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="25"
+    height="25"
+    viewBox="0 0 25 25"
+    fill="none"
+  >
+    <g id="plus">
+      <path
+        id="Icon"
+        d="M12.5 5.96484V19.9648M5.5 12.9648H19.5"
+        stroke="#FA6444"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+  </svg>
+);
+export const orangeMinus = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="25"
+    height="25"
+    viewBox="0 0 25 25"
+    fill="none"
+  >
+    <g id="minus">
+      <path
+        id="Icon"
+        d="M5.5 12.9648H19.5"
+        stroke="#FA6444"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+  </svg>
+);
+export const orangeRightArrow = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="21"
+    viewBox="0 0 20 21"
+    fill="none"
+  >
+    <path
+      d="M4.16669 10.9649H15.8334M15.8334 10.9649L10 5.13159M15.8334 10.9649L10 16.7983"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const resumeIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="21"
+    viewBox="0 0 20 21"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_1265_26)">
+      <path
+        d="M11.6666 2.8562V6.29832C11.6666 6.76503 11.6666 6.99838 11.7575 7.17664C11.8374 7.33345 11.9649 7.46093 12.1217 7.54082C12.2999 7.63165 12.5333 7.63165 13 7.63165H16.4421M13.3333 11.7983H6.66665M13.3333 15.1316H6.66665M8.33331 8.46493H6.66665M11.6666 2.63159H7.33331C5.93318 2.63159 5.23312 2.63159 4.69834 2.90408C4.22793 3.14376 3.84548 3.52621 3.6058 3.99662C3.33331 4.5314 3.33331 5.23146 3.33331 6.63159V15.2983C3.33331 16.6984 3.33331 17.3985 3.6058 17.9332C3.84548 18.4036 4.22793 18.7861 4.69834 19.0258C5.23312 19.2983 5.93318 19.2983 7.33331 19.2983H12.6666C14.0668 19.2983 14.7668 19.2983 15.3016 19.0258C15.772 18.7861 16.1545 18.4036 16.3942 17.9332C16.6666 17.3985 16.6666 16.6984 16.6666 15.2983V7.63159L11.6666 2.63159Z"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_1265_26">
+        <rect
+          width="20"
+          height="20"
+          fill="white"
+          transform="translate(0 0.964844)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);

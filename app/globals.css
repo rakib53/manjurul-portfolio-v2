@@ -58,6 +58,78 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.sectionTitle {
+  color: var(--okd, #2b2f38);
+  text-align: center;
+
+  /* Display md/semibold */
+  font-family: "rocGroteskBold";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 122.222% */
+}
+
+.sectionDesc {
+  color: var(--Gray-600, #5d6679);
+  text-align: center;
+
+  /* Text lg/regular */
+  font-family: "rocGroteskReg";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.orange_btn {
+  border-radius: 12px;
+  border: 1.5px solid #ff8e76;
+  background: var(
+    --G,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #fa6444
+  );
+  box-shadow: 0px 0px 4px 2px rgba(255, 89, 54, 0.4) inset;
+}
+.white_btn {
+  border-radius: 12px;
+  border: 1.5px solid #f0f1f3;
+  background: linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 0.3) 0%,
+      rgba(240, 241, 243, 0) 100%
+    ),
+    #fff;
+  box-shadow: 0px 0px 7px 2px #f0f1f3 inset;
+}
+.white_transparent {
+  border-radius: 12px;
+  border: 1.5px solid var(--Gray-100, #d0d3d9);
+  background: linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 0.3) 0%,
+      rgba(240, 241, 243, 0) 100%
+    ),
+    #f3f3f3;
+  box-shadow: 0px 0px 7px 2px #f0f1f3 inset;
+}
+.gray_btn {
+  border-radius: 12px;
+  border: 1.5px solid var(--Gray-700, #48505e);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #2b2f38;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

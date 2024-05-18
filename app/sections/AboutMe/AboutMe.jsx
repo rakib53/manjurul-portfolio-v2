@@ -1,0 +1,56 @@
+import Container from "@/app/components/Container";
+import React from "react";
+import about_me from "../../../public/images/about_me.png";
+import Image from "next/image";
+import { orangeRightArrow, resumeIcon } from "@/utils/SVG";
+import Button from "@/app/components/Button";
+
+export default function AboutMe() {
+  return (
+    <section className="pt-[113px] pb-[160px] bg-white">
+      <Container>
+        <div className="flex justify-between gap-11 items-center">
+          <div className="w-1/2">
+            <Image
+              src={about_me}
+              height={500}
+              className="w-full rounded-3xl"
+              alt="Manjurul islam designer"
+            />
+          </div>
+          <div className="flex flex-col gap-10 w-1/2">
+            <h3 className="sectionTitle !text-left">
+              Meet Your Expert SaaS Web <br /> Application Designer
+            </h3>
+            <p className="sectionDesc !text-left">
+              I translate user insights into stunning, user-friendly SaaS web
+              applications. My expertise in design systems and meticulous
+              organization ensures your applications are scalable and seamless,
+              from initial idea to launch.
+              <br />
+              <br />
+              Through in-depth research, rapid prototyping, and user testing, I
+              uncover core problems and craft bespoke solutions specifically
+              tailored to your SaaS needs. This data-driven approach guarantees
+              impactful business results for your application.
+            </p>
+            <div className="flex items-center gap-4">
+              <Button
+                label="Book a call"
+                className="orange_btn flex items-center gap-[10px] py-2 px-4"
+                icon={orangeRightArrow}
+                iconPosition="right"
+              />
+              <Button
+                label="My resume"
+                className="gray_btn flex items-center gap-[10px] py-2 px-4"
+                icon={resumeIcon}
+                iconPosition="left"
+              />
+            </div>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <section className="bg-dark p-7">
       <div className="p-7 bg-orange rounded-3xl">
-        <h2 className="text-[140px] leading-[150px] text-dark tracking-[-1%] py-7 text-center font-rocGrotesk uppercase">
+        <h2 className="text-[140px] leading-[150px] text-dark tracking-[-1%] py-7 text-center font-rocGroteskBold uppercase">
           let’s make your dream product together.
         </h2>
 

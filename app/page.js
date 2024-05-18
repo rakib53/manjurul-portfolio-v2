@@ -1,8 +1,14 @@
 import Footer from "./components/Footer";
+import AboutMe from "./sections/AboutMe/AboutMe";
+import Article from "./sections/Articles/Article";
+import QuestionAnswer from "./sections/QuestionAnswer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
+      <AboutMe />
+      <Article />
+      <QuestionAnswer />
       <Footer />
     </main>
   );
