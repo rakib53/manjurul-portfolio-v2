@@ -211,3 +211,81 @@ export const eyeIcon = (
     />
   </svg>
 );
+export const noteIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <path
+      d="M11.6667 1.89136V5.33348C11.6667 5.80018 11.6667 6.03354 11.7575 6.2118C11.8374 6.3686 11.9649 6.49609 12.1217 6.57598C12.2999 6.66681 12.5333 6.66681 13 6.66681H16.4421M13.3333 10.8334H6.66668M13.3333 14.1667H6.66668M8.33334 7.50008H6.66668M11.6667 1.66675H7.33334C5.93321 1.66675 5.23315 1.66675 4.69837 1.93923C4.22796 2.17892 3.84551 2.56137 3.60583 3.03177C3.33334 3.56655 3.33334 4.26662 3.33334 5.66675V14.3334C3.33334 15.7335 3.33334 16.4336 3.60583 16.9684C3.84551 17.4388 4.22796 17.8212 4.69837 18.0609C5.23315 18.3334 5.93321 18.3334 7.33334 18.3334H12.6667C14.0668 18.3334 14.7669 18.3334 15.3017 18.0609C15.7721 17.8212 16.1545 17.4388 16.3942 16.9684C16.6667 16.4336 16.6667 15.7335 16.6667 14.3334V6.66675L11.6667 1.66675Z"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const bangladeshIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <path
+      d="M20 14.9033C20 16 19.129 16.7742 18.0645 16.7742H1.93548C0.870968 16.7742 0 16 0 14.9033V5.0968C0 4.00002 0.870968 3.22583 1.93548 3.22583H18.0645C19.129 3.22583 20 4.00002 20 5.0968V14.9033Z"
+      fill="#359846"
+    />
+    <path
+      d="M10 14.1612C12.2983 14.1612 14.1613 12.2981 14.1613 9.99991C14.1613 7.7017 12.2983 5.83862 10 5.83862C7.70182 5.83862 5.83875 7.7017 5.83875 9.99991C5.83875 12.2981 7.70182 14.1612 10 14.1612Z"
+      fill="#EC1C24"
+    />
+  </svg>
+);
+export const orangePlayIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+  >
+    <g filter="url(#filter0_b_1274_1621)">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM8.4375 13.668L14.0625 10.524C14.4792 10.2911 14.4792 9.70889 14.0625 9.476L8.4375 6.33197C8.02083 6.09908 7.5 6.39019 7.5 6.85597L7.5 13.144C7.5 13.6098 8.02083 13.9009 8.4375 13.668Z"
+        fill="#FA6444"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_b_1274_1621"
+        x="-16"
+        y="-16"
+        width="52"
+        height="52"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
+        <feComposite
+          in2="SourceAlpha"
+          operator="in"
+          result="effect1_backgroundBlur_1274_1621"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_backgroundBlur_1274_1621"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </svg>
+);
