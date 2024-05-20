@@ -130,6 +130,61 @@ body {
   box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
+.socialBtn {
+  border-radius: 82px;
+  background: linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 0.3) 0%,
+      rgba(240, 241, 243, 0) 100%
+    ),
+    #fff;
+  box-shadow: 0px 0px 7px 2px #f0f1f3 inset;
+}
+.behanceBtn {
+  border-radius: 72px;
+  border: 1.5px solid #216fff;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #1869ff;
+  box-shadow: 0px 0px 4px 2px rgba(25, 103, 246, 0.4) inset;
+}
+.dribbleBtn {
+  border-radius: 72px;
+  border: 1.5px solid #ff72a2;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ee6996;
+  box-shadow: 0px 0px 4px 2px rgba(248, 109, 156, 0.4) inset;
+}
+.linkedinBtn {
+  border-radius: 72px;
+  border: 1.5px solid #3679ca;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #2867b2;
+  box-shadow: 0px 0px 4px 2px #2675d3 inset;
+}
+.mediumBtn {
+  border-radius: 52px;
+  border: 1.5px solid var(--Gray-700, #48505e);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #16171b;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
 .experienceCard1::after {
   content: "";
   position: absolute;
@@ -142,7 +197,6 @@ body {
   filter: blur(65px);
   z-index: 11111;
 }
-
 .experienceCard2::after {
   content: "";
   position: absolute;
@@ -177,6 +231,24 @@ body {
   border-radius: 330px;
   background: #7195ff;
   filter: blur(65px);
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #fa6444 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 12px !important;
+  height: 24px !important;
+  border-radius: 50px !important;
 }
 
 @layer utilities {

@@ -2,11 +2,19 @@ import React from "react";
 import Container from "@/app/components/Container";
 import Navbar from "@/app/components/Navbar";
 import Button from "@/app/components/Button";
-import { invisibleIcon, orangePlayIcon, whiteRightArrow } from "@/utils/SVG";
+import {
+  behance,
+  dribble,
+  invisibleIcon,
+  medium,
+  orangePlayIcon,
+  whiteRightArrow,
+} from "@/utils/SVG";
 import manjurul from "../../../public/manjurul.png";
 import Image from "next/image";
 import Upwork from "../../../public/upwork.png";
 import invisible from "../../../public/invisible.png";
+import SocialButton from "@/app/components/SocialButton";
 
 export default function Banner() {
   return (
@@ -41,6 +49,36 @@ export default function Banner() {
                 className="white_btn flex items-center justify-between gap-[10px] py-2 px-4"
                 icon={orangePlayIcon}
                 iconPosition="right"
+              />
+            </div>
+            <div className="flex items-center gap-2 py-10">
+              <SocialButton
+                label="Behance"
+                icon={behance}
+                className="flex items-center gap-[10px]"
+                hoverClass="behanceBtn cursor-pointer"
+                labelClass="text-white text-lg leading-[28px]"
+              />
+              <SocialButton
+                label="Dribbble"
+                icon={dribble}
+                className="flex items-center gap-[10px]"
+                hoverClass="dribbleBtn cursor-pointer"
+                labelClass="text-white text-lg leading-[28px]"
+              />
+              <SocialButton
+                label="Linkedin"
+                icon={behance}
+                className="flex items-center gap-[10px]"
+                hoverClass="linkedinBtn cursor-pointer"
+                labelClass="text-white text-lg leading-[28px]"
+              />
+              <SocialButton
+                label="Medium"
+                icon={medium}
+                className="flex items-center gap-[10px]"
+                hoverClass="mediumBtn cursor-pointer"
+                labelClass="text-white text-lg leading-[28px]"
               />
             </div>
           </div>

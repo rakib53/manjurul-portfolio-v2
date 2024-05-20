@@ -1,6 +1,7 @@
 import Container from "@/app/components/Container";
 import React from "react";
 import ArticleCard from "./ArticleCard";
+import ArticleSlider from "./ArticleSlider";
 
 export default function Article() {
   return (
@@ -14,9 +15,7 @@ export default function Article() {
           More.
         </p>
         <div className="flex py-[60px]">
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          <ArticleSlider />
         </div>
       </Container>
     </section>
