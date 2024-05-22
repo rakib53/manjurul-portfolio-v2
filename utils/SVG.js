@@ -132,7 +132,7 @@ export const resumeIcon = (
     viewBox="0 0 20 21"
     fill="none"
   >
-    <g clip-path="url(#clip0_1265_26)">
+    <g clipPath="url(#clip0_1265_26)">
       <path
         d="M11.6666 2.8562V6.29832C11.6666 6.76503 11.6666 6.99838 11.7575 7.17664C11.8374 7.33345 11.9649 7.46093 12.1217 7.54082C12.2999 7.63165 12.5333 7.63165 13 7.63165H16.4421M13.3333 11.7983H6.66665M13.3333 15.1316H6.66665M8.33331 8.46493H6.66665M11.6666 2.63159H7.33331C5.93318 2.63159 5.23312 2.63159 4.69834 2.90408C4.22793 3.14376 3.84548 3.52621 3.6058 3.99662C3.33331 4.5314 3.33331 5.23146 3.33331 6.63159V15.2983C3.33331 16.6984 3.33331 17.3985 3.6058 17.9332C3.84548 18.4036 4.22793 18.7861 4.69834 19.0258C5.23312 19.2983 5.93318 19.2983 7.33331 19.2983H12.6666C14.0668 19.2983 14.7668 19.2983 15.3016 19.0258C15.772 18.7861 16.1545 18.4036 16.3942 17.9332C16.6666 17.3985 16.6666 16.6984 16.6666 15.2983V7.63159L11.6666 2.63159Z"
         stroke="white"
@@ -270,9 +270,9 @@ export const orangePlayIcon = (
         width="52"
         height="52"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
         <feComposite
           in2="SourceAlpha"
@@ -379,6 +379,34 @@ export const QuoteIcon = (
     <path
       d="M22.0655 0.964844C8.41644 1.36889 0.5 8.1029 0.5 26.6887L0.5 40.9648H20.7006V20.7628L12.2382 20.7628V20.2241C12.2382 13.8941 15.2409 11.0659 22.0655 10.7965V0.964844ZM49.5 0.964844C35.851 1.36889 27.9345 8.1029 27.9345 26.6887V40.9648L48.1351 40.9648L48.1351 20.7628L39.6727 20.7628V20.2241C39.6727 13.8941 42.6755 11.0659 49.5 10.7965V0.964844Z"
       fill="#FB8D75"
+    />
+  </svg>
+);
+export const heroSectionStarIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="122"
+    height="123"
+    viewBox="0 0 122 123"
+    fill="none"
+  >
+    <path
+      d="M61 0.964844L66.176 56.7888L122 61.9648L66.176 67.1409L61 122.965L55.824 67.1409L0 61.9648L55.824 56.7888L61 0.964844Z"
+      fill="white"
+    />
+  </svg>
+);
+export const heroSmallSectionStarIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="44"
+    height="45"
+    viewBox="0 0 44 45"
+    fill="none"
+  >
+    <path
+      d="M22 0.964844L23.8668 21.0981L44 22.9648L23.8668 24.8316L22 44.9648L20.1332 24.8316L0 22.9648L20.1332 21.0981L22 0.964844Z"
+      fill="white"
     />
   </svg>
 );

@@ -5,7 +5,10 @@ import Article from "./sections/Articles/Article";
 import Banner from "./sections/Banner/Banner";
 import CaseStudies from "./sections/CaseStudies/CaseStudies";
 import DesignExperience from "./sections/DesignExperience/DesignExperience";
+import Dribble from "./sections/Dribble/Dribble";
+import DribbleShotsSlider from "./sections/DribbleShots/DribbleShotsSlide";
 import ExploreUIKits from "./sections/ExploreUIKits/ExploreUIKits";
+import HeroSection from "./sections/Hero/Hero";
 import QuestionAnswer from "./sections/QuestionAnswer";
 import Testimonial from "./sections/Testimonial/Testmonial";
 
@@ -19,6 +22,9 @@ export default function Home() {
       <Testimonial />
       <ExploreUIKits />
       <AboutMe />
+      {/* <DribbleShotsSlider /> */}
+      <Dribble />
+      <HeroSection />
       <Article />
       <QuestionAnswer />
       <Footer />
