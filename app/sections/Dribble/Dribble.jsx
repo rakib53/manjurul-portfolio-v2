@@ -5,9 +5,39 @@ import companyTwo from "../../../public/company/2.png";
 import companyThree from "../../../public/company/3.png";
 
 export default function Dribble() {
-  const sliderOne = [companyOne, companyTwo, companyThree];
-  const sliderTwo = [companyOne, companyTwo, companyThree];
-  const sliderThree = [companyOne, companyTwo, companyThree];
+  const sliderOne = [
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+  ];
+  const sliderTwo = [
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+  ];
+  const sliderThree = [
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+    companyOne,
+    companyTwo,
+    companyThree,
+  ];
 
   return (
     <div>

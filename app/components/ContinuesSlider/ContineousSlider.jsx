@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import imaage from "../../../public/company/1.png";
 
 const ContinuesSlider = (props) => {
   const { width, height, prefix, reverse, animationDuration, contents } = props;
 
-  console.log(contents);
+  console.log(contents?.length);
 
   return (
     <div className={`slider${prefix}`}>
@@ -20,7 +21,7 @@ const ContinuesSlider = (props) => {
 
             .slideTrack${prefix}{
                 display: flex;
-                width: calc(${width}px * ${contents * 2});
+                width: calc(${width}px * ${contents?.length * 2});
                 animation: scroll${prefix} ${animationDuration}s linear infinite;
             }
 
@@ -42,7 +43,7 @@ const ContinuesSlider = (props) => {
               0% {
                 transform: ${
                   reverse
-                    ? `translateX(calc(-${width}px * ${contents}))`
+                    ? `translateX(calc(-${width}px * ${contents?.length}))`
                     : "translateX(0)"
                 } 
               }
@@ -50,7 +51,7 @@ const ContinuesSlider = (props) => {
                 transform: ${
                   reverse
                     ? "translateX(0)"
-                    : `translateX(calc(-${width}px * ${contents}))`
+                    : `translateX(calc(-${width}px * ${contents?.length}))`
                 }
               }
             }
@@ -60,17 +61,19 @@ const ContinuesSlider = (props) => {
 
       <div className={`slideTrack${prefix}`}>
         {contents?.map((c, index) => {
-          <div className={`slide${prefix}`} key={index}>
-            {/* <Image src={c?.src} alt="" /> */}
-            <span className="bg-red-200"></span>
-          </div>;
+          return (
+            <div className={`slide${prefix}`} key={index}>
+              <Image src={c} alt="" />
+            </div>
+          );
         })}
         {/* Duplicate slides */}
         {contents?.map((c, index) => {
-          <div className={`slide${prefix}`} key={index}>
-            {/* <Image src={c?.src} alt="" /> */}
-            <span className="bg-red-200"></span>
-          </div>;
+          return (
+            <div className={`slide${prefix}`} key={index}>
+              <Image src={c} alt="" />
+            </div>
+          );
         })}
       </div>
     </div>
