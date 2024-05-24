@@ -233,24 +233,6 @@ body {
   filter: blur(65px);
 }
 
-.swiper-pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.swiper-pagination-bullet {
-  width: 12px !important;
-  height: 12px !important;
-  background-color: #fa6444 !important;
-}
-
-.swiper-pagination-bullet-active {
-  width: 12px !important;
-  height: 24px !important;
-  border-radius: 50px !important;
-}
-
 /* Companies side shadow  */
 .companies-side-shadow {
   position: relative;
@@ -289,7 +271,7 @@ body {
   height: 100%;
   top: 0;
   right: 0;
-  z-index: 1111111;
+  z-index: 10;
   background: linear-gradient(
     88deg,
     rgba(245, 245, 245, 0) 5.24%,
@@ -304,12 +286,101 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 1111111;
+  z-index: 10;
   background: linear-gradient(
     262deg,
     rgba(245, 245, 245, 0) 6.42%,
     #f5f5f5 93.85%
   );
+}
+
+.swiper-button-prev.custom-button,
+.swiper-button-next.custom-button {
+  width: 70px;
+  height: 45px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff6b6b;
+  font-size: 12px;
+  transition: all 0.2s linear;
+  font-weight: bold;
+  border-radius: 42px;
+  border: 1.5px solid #f0f1f3;
+  background: linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 0.3) 0%,
+      rgba(240, 241, 243, 0) 100%
+    ),
+    #fff;
+  box-shadow: 0px 0px 7px 2px #f0f1f3 inset;
+  position: static !important;
+  margin: 0;
+}
+
+.swiper-button-prev.custom-button::after {
+  display: none !important;
+}
+
+.swiper-button-next.custom-button::after {
+  display: none !important;
+}
+
+.swiper-button-prev.custom-button:hover,
+.swiper-button-next.custom-button:hover {
+  border-radius: 52px;
+  border: 1.5px solid #ff8e76;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #fa6444;
+  box-shadow: 0px 0px 4px 2px rgba(255, 89, 54, 0.4) inset;
+}
+
+.swiper-button-prev.custom-button svg,
+.swiper-button-next.custom-button svg {
+  padding: 11px;
+}
+
+.swiper-button-prev.custom-button:hover svg,
+.swiper-button-next.custom-button:hover svg {
+  fill: white;
+  stroke: white;
+  color: white;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ff6b6b;
+  opacity: 1;
+}
+
+.custom-bullet {
+  cursor: pointer;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #fa6444 !important;
+  margin: 0 5px;
+}
+
+.swiper-pagination-bullet-active.custom-bullet {
+  height: 24px !important;
+  border-radius: 50px !important;
+  background-color: #fa6444 !important;
+}
+
+.mySwiper .swiper-wrapper {
+  margin-bottom: 170px;
 }
 
 @layer utilities {

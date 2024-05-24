@@ -410,3 +410,37 @@ export const heroSmallSectionStarIcon = (
     />
   </svg>
 );
+export const prevSliderIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="21"
+    viewBox="0 0 20 21"
+    fill="none"
+  >
+    <path
+      d="M15.8333 10.4751H4.16665M4.16665 10.4751L9.99998 4.64172M4.16665 10.4751L9.99998 16.3084"
+      stroke="#5D6679"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const nextSliderIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="21"
+    viewBox="0 0 20 21"
+    fill="#5D6679"
+  >
+    <path
+      d="M4.16669 10.4751H15.8334M15.8334 10.4751L10 4.64172M15.8334 10.4751L10 16.3084"
+      stroke="#5D6679"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
