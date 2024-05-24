@@ -1,42 +1,46 @@
 import React from "react";
 import Image from "next/image";
-import imaage from "../../../public/company/1.png";
 
 const ContinuesSlider = (props) => {
-  const { width, height, prefix, reverse, animationDuration, contents } = props;
-
-  console.log(contents?.length);
+  const {
+    width,
+    height,
+    prefix,
+    reverse,
+    animationDuration,
+    contents,
+    gap,
+    className,
+  } = props;
 
   return (
-    <div className={`slider${prefix}`}>
+    <div className={`slider${prefix} ${className ? className : ""}`}>
       <style>
         {`
             .slider${prefix}{
               width: 100%;
-              height: ${height}px;
+              height: ${height ? height + "px" : "auto"};
               overflow: hidden;
               position: relative;
-              background-color: #2b2f38;
             }
 
             .slideTrack${prefix}{
                 display: flex;
                 width: calc(${width}px * ${contents?.length * 2});
                 animation: scroll${prefix} ${animationDuration}s linear infinite;
+                gap: ${gap ? gap + "px" : ""}
             }
 
             .slide${prefix}{
               width: ${width}px;
-              height: ${height}px;
+              height: ${height ? height + "px" : "auto"};
               line-height: 100px;
               text-align: center;
               display: flex;
               justify-content: center;
               align-items: center;
-              background-color: #2b2f38;
               box-sizing: border-box;
               flex-shrink: 0;
-              border: 1px solid black;
             }
             
             @keyframes scroll${prefix} {

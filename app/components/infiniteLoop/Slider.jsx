@@ -1,13 +1,13 @@
 // src/Slider.js
 import React from "react";
 import "./Slider.css";
-import CompanyOne from "../../../public/company/1.png";
-import CompanyTwo from "../../../public/company/2.png";
-import CompanyThree from "../../../public/company/3.png";
-import CompanyFour from "../../../public/company/4.png";
-import CompanyFive from "../../../public/company/5.png";
-import CompanySix from "../../../public/company/6.png";
-import CompanySeven from "../../../public/company/7.png";
+import CompanyOne from "../../../public/companies/1.png";
+import CompanyTwo from "../../../public/companies/2.png";
+import CompanyThree from "../../../public/companies/3.png";
+import CompanyFour from "../../../public/companies/4.png";
+import CompanyFive from "../../../public/companies/5.png";
+import CompanySix from "../../../public/companies/6.png";
+import CompanySeven from "../../../public/companies/7.png";
 import Image from "next/image";
 
 const Slider = () => {

@@ -4,9 +4,9 @@ import styles from "./Slider.module.css";
 // import CompanyOne from "../../../public/dribbleshots/db1.png";
 // import CompanyTwo from "../../../public/dribbleshots/db2.png";
 // import CompanyThree from "../../../public/dribbleshots/db3.png";
-import CompanyOne from "../../../public/company/1.png";
-import CompanyTwo from "../../../public/company/2.png";
-import CompanyThree from "../../../public/company/3.png";
+import CompanyOne from "../../../public/companies/1.png";
+import CompanyTwo from "../../../public/companies/2.png";
+import CompanyThree from "../../../public/companies/3.png";
 import Image from "next/image";
 
 const DribbleShotsSlider = (props) => {

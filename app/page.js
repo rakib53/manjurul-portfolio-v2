@@ -4,6 +4,7 @@ import AboutMe from "./sections/AboutMe/AboutMe";
 import Article from "./sections/Articles/Article";
 import Banner from "./sections/Banner/Banner";
 import CaseStudies from "./sections/CaseStudies/CaseStudies";
+import Companies from "./sections/Companies/Companies";
 import DesignExperience from "./sections/DesignExperience/DesignExperience";
 import Dribble from "./sections/Dribble/Dribble";
 import DribbleShotsSlider from "./sections/DribbleShots/DribbleShotsSlide";
@@ -16,7 +17,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <Slider />
+      <Companies />
       <CaseStudies />
       <DesignExperience />
       <Testimonial />

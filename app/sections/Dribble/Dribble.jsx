@@ -1,8 +1,8 @@
 import ContinuesSlider from "@/app/components/ContinuesSlider/ContineousSlider";
 import React from "react";
-import companyOne from "../../../public/company/1.png";
-import companyTwo from "../../../public/company/2.png";
-import companyThree from "../../../public/company/3.png";
+import companyOne from "../../../public/dribble_shots/db1.png";
+import companyTwo from "../../../public/dribble_shots/db2.png";
+import companyThree from "../../../public/dribble_shots/db3.png";
 
 export default function Dribble() {
   const sliderOne = [
@@ -40,31 +40,42 @@ export default function Dribble() {
   ];
 
   return (
-    <div>
-      <ContinuesSlider
-        width={280}
-        height={380}
-        reverse={false}
-        contents={sliderOne}
-        prefix="dribbleShotsOne"
-        animationDuration={30}
-      />
-      <ContinuesSlider
-        width={280}
-        height={380}
-        reverse={true}
-        contents={sliderTwo}
-        prefix="dribbleShotsTwo"
-        animationDuration={30}
-      />
-      <ContinuesSlider
-        width={280}
-        height={380}
-        reverse={false}
-        contents={sliderThree}
-        prefix="dribbleShotsThree"
-        animationDuration={30}
-      />
-    </div>
+    <section className="bg-white py-20">
+      <div className="mb-[60px]">
+        <h3 className="sectionTitle">Stay Inspired: Latest Shots on Dribble</h3>
+        <p className="sectionDesc">
+          Explore My Latest Design Innovations and Inspirations on Dribble.
+        </p>
+      </div>
+      <div className="flex flex-col gap-6">
+        <ContinuesSlider
+          width={400}
+          height={300}
+          gap={24}
+          reverse={false}
+          contents={sliderOne}
+          prefix="dribbleShotsOne"
+          animationDuration={30}
+        />
+        <ContinuesSlider
+          width={400}
+          height={300}
+          gap={24}
+          reverse={true}
+          contents={sliderTwo}
+          prefix="dribbleShotsTwo"
+          animationDuration={30}
+        />
+        <ContinuesSlider
+          width={400}
+          height={300}
+          gap={24}
+          reverse={false}
+          contents={sliderThree}
+          prefix="dribbleShotsThree"
+          animationDuration={30}
+        />
+      </div>
+    </section>
   );
 }
