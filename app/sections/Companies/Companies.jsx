@@ -27,7 +27,7 @@ export default function Companies() {
     companyEleven,
   ];
   return (
-    <div className="bg-[#2B2F38] side-shadow">
+    <div className="bg-[#2B2F38] companies-side-shadow">
       <p className="text-center text-base leading-6 tracking-[3%] font-rocGroteskMid uppercase pt-[24px]">
         Companies that I helped to grow
       </p>

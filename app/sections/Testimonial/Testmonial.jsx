@@ -4,7 +4,7 @@ import TestimonialSlider from "./TestmonialSlider";
 
 export default function Testimonial() {
   return (
-    <section className="w-full py-[100px] bg-[#F5F5F5]">
+    <section className="w-full py-[100px] bg-[#F5F5F5] linkedin-side-shadow">
       <div>
         <h2 className="sectionTitle">Hear What Others Have to Say</h2>
         <p className="sectionDesc">

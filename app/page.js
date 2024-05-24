@@ -23,7 +23,6 @@ export default function Home() {
       <Testimonial />
       <ExploreUIKits />
       <AboutMe />
-      {/* <DribbleShotsSlider /> */}
       <Dribble />
       <HeroSection />
       <Article />
