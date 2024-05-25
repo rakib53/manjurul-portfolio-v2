@@ -1,10 +1,10 @@
-import ContinuesSlider from "@/app/components/ContinuesSlider/ContineousSlider";
 import React from "react";
-import companyOne from "../../../public/dribble_shots/db1.png";
-import companyTwo from "../../../public/dribble_shots/db2.png";
-import companyThree from "../../../public/dribble_shots/db3.png";
+import companyOne from "@public/dribble_shots/db1.png";
+import companyTwo from "@public/dribble_shots/db2.png";
+import companyThree from "@public/dribble_shots/db3.png";
+import MarqueeSlider from "@components/MarqueeSlider/MarqueeSlider";
 
-export default function Dribble() {
+export default function DribbleShots() {
   const sliderOne = [
     companyOne,
     companyTwo,
@@ -48,7 +48,7 @@ export default function Dribble() {
         </p>
       </div>
       <div className="flex flex-col gap-6">
-        <ContinuesSlider
+        <MarqueeSlider
           width={400}
           height={300}
           gap={24}
@@ -57,7 +57,7 @@ export default function Dribble() {
           prefix="dribbleShotsOne"
           animationDuration={30}
         />
-        <ContinuesSlider
+        <MarqueeSlider
           width={400}
           height={300}
           gap={24}
@@ -66,7 +66,7 @@ export default function Dribble() {
           prefix="dribbleShotsTwo"
           animationDuration={30}
         />
-        <ContinuesSlider
+        <MarqueeSlider
           width={400}
           height={300}
           gap={24}

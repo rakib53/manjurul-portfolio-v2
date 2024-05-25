@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "next/image";
+import Container from "@components/Container";
 import Navbar from "@components/Navbar";
 import Button from "@components/Button";
+import manjurul from "@public/banner/manjurul.png";
+import Image from "next/image";
 import Upwork from "@public/upwork.png";
-import manjurul from "@public/manjurul.png";
 import invisible from "@public/invisible.png";
-import Container from "@components/Container";
 import SocialButton from "@components/SocialButton";
 import {
   behance,
