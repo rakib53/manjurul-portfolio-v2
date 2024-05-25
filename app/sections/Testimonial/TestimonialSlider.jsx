@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
-import Recommendations from "@/app/components/LinkdienRecommendations/Recommendations";
+import Recommendations from "@components/LinkdienRecommendations/Recommendations";
 import {
   nextSliderIcon,
   nextWhiteSliderIcon,

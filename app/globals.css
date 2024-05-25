@@ -350,11 +350,10 @@ body {
   padding: 11px;
 }
 
-.swiper-button-prev.custom-button:hover svg,
-.swiper-button-next.custom-button:hover svg {
-  fill: white;
-  stroke: white;
-  color: white;
+.swiper-button-prev.custom-button:hover svg path,
+.swiper-button-next.custom-button:hover svg path {
+  fill: white; /* Hover fill color */
+  stroke: white; /* Hover fill color */
 }
 
 .swiper-pagination {
