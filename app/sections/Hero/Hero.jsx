@@ -1,16 +1,15 @@
 // src/HeroSection.jsx
 import React from "react";
-import ClinetOne from "../../../public/hero/1.png";
 import Image from "next/image";
 import Button from "@/app/components/Button";
+import peoples from "../../../public/peoples.png";
+import Container from "@/app/components/Container";
 import {
   heroSectionStarIcon,
   heroSmallSectionStarIcon,
   orangePlayIcon,
   orangeRightArrow,
 } from "@/utils/SVG";
-import peoples from "../../../public/peoples.png";
-import Container from "@/app/components/Container";
 
 const HeroSection = () => {
   return (

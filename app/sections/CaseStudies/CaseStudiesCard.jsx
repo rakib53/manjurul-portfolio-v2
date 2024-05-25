@@ -1,7 +1,7 @@
 import React from "react";
 import CaseStudies1 from "../../../public/images/CASE_STUDIES/1.png";
 import Button from "@/app/components/Button";
-import { blackRightArrow, eyeIcon, whiteRightArrow } from "@/utils/SVG";
+import { eyeIcon } from "@/utils/SVG";
 import Image from "next/image";
 
 export default function CaseStudiesCard({ cardNumber }) {
@@ -11,7 +11,7 @@ export default function CaseStudiesCard({ cardNumber }) {
         src={CaseStudies1}
         className="w-full max-h-[335px] h-full object-cover"
       />
-      <div className="p-4 bg-white flex justify-between gap-[100px]">
+      <div className="p-6 pr-4 bg-white flex justify-between gap-[100px]">
         <h2 className="text-[50px] leading-[60px] text-gray100 font-rocGroteskMid">
           {cardNumber}
         </h2>

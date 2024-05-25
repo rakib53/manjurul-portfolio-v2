@@ -65,7 +65,7 @@ export default function DesignExperience() {
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
                 4+
               </h3>
-              <p className="text-base leading-6 text-gray600">
+              <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
                 Years of working experience
               </p>
             </div>
@@ -76,7 +76,7 @@ export default function DesignExperience() {
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
                 10+
               </h3>
-              <p className="text-base leading-6 text-gray600">
+              <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
                 Collaborate with brands
               </p>
             </div>
@@ -87,7 +87,9 @@ export default function DesignExperience() {
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
                 50+
               </h3>
-              <p className="text-base leading-6 text-gray600">Projects</p>
+              <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
+                Projects
+              </p>
             </div>
           </div>
 
@@ -96,7 +98,9 @@ export default function DesignExperience() {
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
                 35+
               </h3>
-              <p className="text-base leading-6 text-gray600">Happy clients</p>
+              <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
+                Happy clients
+              </p>
             </div>
           </div>
         </div>

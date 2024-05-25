@@ -28,7 +28,7 @@ export default function Companies() {
   ];
   return (
     <div className="bg-[#2B2F38] companies-side-shadow">
-      <p className="text-center text-base leading-6 tracking-[3%] font-rocGroteskMid uppercase pt-[24px]">
+      <p className="text-center text-base leading-[23px] tracking-[3%] font-rocGroteskMid uppercase pt-[24px]">
         Companies that I helped to grow
       </p>
       <ContinuesSlider

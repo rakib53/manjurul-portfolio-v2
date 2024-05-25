@@ -19,14 +19,16 @@ export default function SocialButton({
       href={href}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className={`socialBtn transition duration-300 ease-linear p-3 h-[50px] ${
+      className={`socialBtn transition duration-300 ease-linear p-3 w-[44px] h-[44px] ${
         isHovered && hoverClass
       } ${className}`}
     >
       <span>{icon}</span>
       <span
-        className={`text-sm font-medium ${
-          isHovered ? "inline-block" : "hidden"
+        className={`text-sm font-medium transition duration-300 ease-linear ${
+          isHovered
+            ? "visible transition duration-300 ease-linear"
+            : "invisible transition duration-300 ease-linear"
         } ${labelClass}`}
       >
         {label}

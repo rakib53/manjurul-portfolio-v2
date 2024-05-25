@@ -383,6 +383,15 @@ body {
   margin-bottom: 170px;
 }
 
+.icon-button {
+  width: 3rem; /* Adjust to the size of your icon plus padding */
+  transition: width 0.3s ease-in-out; /* Smooth width transition */
+}
+
+.icon-button:hover {
+  width: auto; /* Width adjusts to fit the content */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -1,20 +1,19 @@
 import React from "react";
-import Container from "@/app/components/Container";
-import Navbar from "@/app/components/Navbar";
-import Button from "@/app/components/Button";
+import Image from "next/image";
+import Navbar from "@components/Navbar";
+import Button from "@components/Button";
+import Upwork from "@public/upwork.png";
+import manjurul from "@public/manjurul.png";
+import invisible from "@public/invisible.png";
+import Container from "@components/Container";
+import SocialButton from "@components/SocialButton";
 import {
   behance,
   dribble,
-  invisibleIcon,
   medium,
   orangePlayIcon,
   whiteRightArrow,
 } from "@/utils/SVG";
-import manjurul from "../../../public/manjurul.png";
-import Image from "next/image";
-import Upwork from "../../../public/upwork.png";
-import invisible from "../../../public/invisible.png";
-import SocialButton from "@/app/components/SocialButton";
 
 export default function Banner() {
   return (
@@ -56,28 +55,28 @@ export default function Banner() {
                 label="Behance"
                 icon={behance}
                 className="flex items-center gap-[10px]"
-                hoverClass="behanceBtn cursor-pointer"
+                hoverClass="w-fit behanceBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
-                label="Dribbble"
+                label="Dribble"
                 icon={dribble}
                 className="flex items-center gap-[10px]"
-                hoverClass="dribbleBtn cursor-pointer"
+                hoverClass="w-fit dribbleBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
                 label="Linkedin"
                 icon={behance}
                 className="flex items-center gap-[10px]"
-                hoverClass="linkedinBtn cursor-pointer"
+                hoverClass="!w-fit linkedinBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
                 label="Medium"
                 icon={medium}
                 className="flex items-center gap-[10px]"
-                hoverClass="mediumBtn cursor-pointer"
+                hoverClass="!w-fit mediumBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
             </div>
@@ -92,7 +91,7 @@ export default function Banner() {
               }}
             >
               <Image src={invisible} />
-              <span className="text-[20px] leading-5 font-rocGroteskMid text-gray800">
+              <span className="text-[13.5px] leading-5 font-rocGroteskMid text-gray800">
                 UI/UX Designer at <br /> @Invisible studio
               </span>
             </div>
@@ -104,8 +103,8 @@ export default function Banner() {
               }}
             >
               <Image src={Upwork} />
-              <span className="text-[20px] leading-5 font-rocGroteskMid text-gray800">
-                Top rated seller <br /> at @upwok
+              <span className="text-[20px] leading-[32px] font-rocGroteskMid text-gray800">
+                Top rated seller <br /> at @upwork
               </span>
             </div>
           </div>
