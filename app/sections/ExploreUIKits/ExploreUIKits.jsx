@@ -6,7 +6,7 @@ import ExploreUIKitsCard from "./ExploreUIKitsCard";
 
 export default function ExploreUIKits() {
   return (
-    <section className="w-full py-[136px] bg-white bg-[url('/images/UI_KIT/bg.png')] bg-cover bg-center">
+    <section className="w-full py-[136px] bg-white bg-[url('/images/UI_KIT/2.png')] bg-cover bg-center">
       <Container>
         <div>
           <div className="flex justify-between items-start">

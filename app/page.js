@@ -7,9 +7,9 @@ import Companies from "@sections/Companies/Companies";
 import DesignExperience from "@sections/DesignExperience/DesignExperience";
 import DribbleShots from "@sections/DribbleShots/DribbleShots";
 import ExploreUIKits from "@sections/ExploreUIKits/ExploreUIKits";
-import HeroSection from "@sections/Hero/Hero";
-import QuestionAnswer from "@sections/QuestionAnswer";
-import Testimonial from "@sections/Testimonial/Testmonial";
+import Partnership from "@sections/Partnership/Partnership";
+import QuestionAnswer from "@sections/QuestionAnswer/QuestionAnswer";
+import Testimonial from "@sections/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <ExploreUIKits />
       <AboutMe />
       <DribbleShots />
-      <HeroSection />
+      <Partnership />
       <Article />
       <QuestionAnswer />
       <Footer />

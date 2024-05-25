@@ -1,15 +1,15 @@
 "use client";
-import { rightArrow } from "@/utils/SVG";
 import React from "react";
-import Accordion from "../components/Accordion/Accordion";
-import Container from "../components/Container";
-import Button from "../components/Button";
+import Button from "@components/Button";
+import { rightArrow } from "@utils/SVG";
+import Container from "@components/Container";
+import Accordion from "@components/Accordion/Accordion";
 
 export default function QuestionAnswer() {
   return (
     <section className="w-full bg-[#F5F5F5] py-[120px]">
       <Container>
-        <div className="flex justify-between gap-[67px]">
+        <div className="flex justify-between gap-[50px]">
           <div className="flex flex-col justify-between items-start">
             <h3 className="text-gray900 text-[36px] leading-[44px] font-rocGroteskBold text-left">
               Answers to Your Questions

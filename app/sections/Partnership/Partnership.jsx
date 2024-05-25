@@ -1,17 +1,16 @@
-// src/HeroSection.jsx
 import React from "react";
 import Image from "next/image";
-import Button from "@/app/components/Button";
-import peoples from "../../../public/peoples.png";
-import Container from "@/app/components/Container";
+import peoples from "@public/peoples.png";
+import Button from "@components/Button";
+import Container from "@components/Container";
 import {
   heroSectionStarIcon,
   heroSmallSectionStarIcon,
   orangePlayIcon,
   orangeRightArrow,
-} from "@/utils/SVG";
+} from "@utils/SVG";
 
-const HeroSection = () => {
+const Partnership = () => {
   return (
     <section className="bg-[#A6DEF7] py-[110px] flex flex-col items-center text-center">
       <Container>
@@ -61,4 +60,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Partnership;

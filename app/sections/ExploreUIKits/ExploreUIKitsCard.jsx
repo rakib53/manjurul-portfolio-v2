@@ -7,10 +7,10 @@ export default function ExploreUIKitsCard() {
   return (
     <div className="w-full rounded-2xl overflow-hidden">
       <Image src={UI1} className="w-full max-h-[335px] h-full object-cover" />
-      <div className="p-4 bg-white">
+      <div className="p-4 bg-white flex flex-col gap-2">
         <div className="flex justify-between items-center">
-          <h4 className="text-gray900 text-[26px] leading-[30px] font-rocGroteskMid">
-            Taskmanly - Task Management Website UI Kit
+          <h4 className="text-gray900 text-[20px] leading-[30px] font-rocGroteskMid">
+            Dailyflow | Task Management | UI Kit
           </h4>
           <span className="text-orange text-[22px] leading-[32px] font-rocGroteskMid">
             $59
