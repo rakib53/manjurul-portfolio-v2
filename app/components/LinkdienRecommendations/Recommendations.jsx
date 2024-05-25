@@ -1,8 +1,8 @@
-import { QuoteIcon } from "@/utils/SVG";
 import React from "react";
-import LinkedIn from "../../../public/LinkedIn.png";
-import linkdienClient from "../../../public/linkdienClient.png";
 import Image from "next/image";
+import { QuoteIcon } from "@utils/SVG";
+import LinkedIn from "@public/LinkedIn.png";
+import linkdienClient from "@public/linkdienClient.png";
 
 export default function Recommendations() {
   return (

@@ -4,7 +4,7 @@ import CaseStudiesCard from "./CaseStudiesCard";
 
 export default function CaseStudies() {
   return (
-    <section className="w-full bg-[#F5F5F5] py-[100px]">
+    <section className="w-full bg-[#F5F5F5] py-[100px]" id="portfolio">
       <Container>
         <div>
           <h3 className="sectionTitle">

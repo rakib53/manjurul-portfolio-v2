@@ -19,7 +19,7 @@ export default function Navbar() {
           <ul className="flex items-center gap-[30px]">
             <li>
               <a
-                href=""
+                href="#portfolio"
                 className="text-sm text-gray600 opacity-85 font-rocGroteskMid uppercase tracking-[ 0.56px]"
               >
                 Portfolio
@@ -27,7 +27,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href=""
+                href="#about-me"
                 className="text-sm text-gray600 opacity-85 font-rocGroteskMid uppercase tracking-[ 0.56px]"
               >
                 About me
@@ -35,7 +35,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href=""
+                href="#blogs"
                 className="text-sm text-gray600 opacity-85 font-rocGroteskMid uppercase tracking-[ 0.56px]"
               >
                 Blogs

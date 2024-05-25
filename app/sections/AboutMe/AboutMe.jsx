@@ -1,13 +1,13 @@
-import Container from "@/app/components/Container";
 import React from "react";
-import about_me from "../../../public/images/about_me.png";
 import Image from "next/image";
+import Button from "@components/Button";
+import Container from "@components/Container";
+import about_me from "@public/images/about_me.png";
 import { orangeRightArrow, resumeIcon } from "@/utils/SVG";
-import Button from "@/app/components/Button";
 
 export default function AboutMe() {
   return (
-    <section className="pt-[113px] pb-[160px] bg-white">
+    <section className="pt-[113px] pb-[160px] bg-white" id="about-me">
       <Container>
         <div className="flex justify-between gap-11 items-center">
           <div className="w-1/2">
