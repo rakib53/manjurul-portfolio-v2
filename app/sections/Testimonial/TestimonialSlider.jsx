@@ -1,7 +1,5 @@
 "use client";
-
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -9,16 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import "./styles.css";
-
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import Recommendations from "@components/LinkdienRecommendations/Recommendations";
-import {
-  nextSliderIcon,
-  nextWhiteSliderIcon,
-  prevSliderIcon,
-} from "@/utils/SVG";
+import { nextSliderIcon, prevSliderIcon } from "@utils/SVG";
 
 export default function TestimonialSlider() {
   return (

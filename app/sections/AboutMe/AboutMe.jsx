@@ -3,7 +3,7 @@ import Image from "next/image";
 import Button from "@components/Button";
 import Container from "@components/Container";
 import about_me from "@public/images/about_me.png";
-import { orangeRightArrow, resumeIcon } from "@/utils/SVG";
+import { orangeRightArrow, resumeIcon } from "@utils/SVG";
 
 export default function AboutMe() {
   return (

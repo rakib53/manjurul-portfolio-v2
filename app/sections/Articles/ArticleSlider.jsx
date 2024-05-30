@@ -8,14 +8,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import "./styles.css";
-
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import ArticleCard from "./ArticleCard";
-import { nextSliderIcon, prevSliderIcon } from "@/utils/SVG";
+import { nextSliderIcon, prevSliderIcon } from "@utils/SVG";
 
-export default function ArticleSlider() {
+export default function ArticleSlider({ blog }) {
+  const { items } = blog;
+
+  console.log(items);
+
   return (
     <>
       <Swiper
@@ -35,27 +37,11 @@ export default function ArticleSlider() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ArticleCard />
-        </SwiperSlide>
+        {items?.map((item) => (
+          <SwiperSlide>
+            <ArticleCard item={item} />
+          </SwiperSlide>
+        ))}
 
         <div className="absolute bottom-[50px] w-full z-50 flex justify-center">
           <div className="w-[300px] flex justify-center items-center !gap-6">

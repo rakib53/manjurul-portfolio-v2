@@ -1,20 +1,36 @@
-import Image from "next/image";
 import React from "react";
-import articleOneImage from "../../../public/images/article1.png";
 
-export default function ArticleCard() {
+export default function ArticleCard({ item }) {
+  const { thumbnail, title, description } = item;
+
+  console.log(thumbnail);
   return (
     <div className="">
-      <Image src={articleOneImage} className="rounded-[18px]" />
+      <div
+        style={{
+          backgroundImage: `url(${thumbnail})`,
+          width: "100%",
+          height: "100%",
+          width: "100%",
+          height: "240px",
+          marginBottom: "30px",
+          border: "1px solid #ddd",
+          borderRadius: "18px",
+        }}
+      ></div>
       <div className="flex flex-col gap-[10px] mt-[18px]">
         <h4 className="text-gray900 text-xl leading-[30px] font-rocGroteskBold">
-          8 Amazing Places to shoot photography and Videography 2023
+          {title?.length > 50 ? title?.slice(0, 55) + "..." : title}
         </h4>
-        <p className="text-sm leading-5 font-rocGroteskReg text-gray600">
-          We document human stories with a camera. Our only goal is to convert
-          your special day into images, that tell a story for generations to
-          come.
-        </p>
+        <div
+          className="text-sm leading-5 font-rocGroteskReg text-gray600"
+          dangerouslySetInnerHTML={{
+            __html:
+              description?.length > 50
+                ? description?.slice(0, 140) + "..."
+                : description,
+          }}
+        />
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ import {
   medium,
   orangePlayIcon,
   whiteRightArrow,
-} from "@/utils/SVG";
+} from "@utils/SVG";
 
 export default function Banner() {
   return (
@@ -55,28 +55,28 @@ export default function Banner() {
                 label="Behance"
                 icon={behance}
                 className="flex items-center gap-[10px]"
-                hoverClass="w-fit behanceBtn cursor-pointer"
+                hoverClass="!w-auto behanceBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
                 label="Dribble"
                 icon={dribble}
                 className="flex items-center gap-[10px]"
-                hoverClass="w-fit dribbleBtn cursor-pointer"
+                hoverClass="!w-auto dribbleBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
                 label="Linkedin"
                 icon={behance}
                 className="flex items-center gap-[10px]"
-                hoverClass="!w-fit linkedinBtn cursor-pointer"
+                hoverClass="!w-auto linkedinBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
                 label="Medium"
                 icon={medium}
                 className="flex items-center gap-[10px]"
-                hoverClass="!w-fit mediumBtn cursor-pointer"
+                hoverClass="!w-auto mediumBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
             </div>
@@ -85,7 +85,7 @@ export default function Banner() {
           <div className="relative">
             <Image src={manjurul} width={500} height={500} />
             <div
-              className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3"
+              className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3 bannerSticker"
               style={{
                 boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
               }}

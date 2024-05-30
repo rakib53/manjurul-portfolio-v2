@@ -1,4 +1,4 @@
-import { CheckMarkIcon, CopyTextIcon, SocialLinkIcon } from "@/utils/SVG";
+import { CheckMarkIcon, CopyTextIcon, SocialLinkIcon } from "@utils/SVG";
 import React from "react";
 import ClickToCopy from "./ClickToCopy";
 

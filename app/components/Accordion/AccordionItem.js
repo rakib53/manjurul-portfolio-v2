@@ -1,4 +1,4 @@
-import { orangeMinus, orangePlus } from "@/utils/SVG";
+import { orangeMinus, orangePlus } from "@utils/SVG";
 import React from "react";
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {

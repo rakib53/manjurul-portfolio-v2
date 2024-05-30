@@ -1,7 +1,7 @@
 import React from "react";
-import CaseStudies1 from "../../../public/images/CASE_STUDIES/1.png";
-import Button from "@/app/components/Button";
-import { eyeIcon } from "@/utils/SVG";
+import CaseStudies1 from "@public/images/CASE_STUDIES/1.png";
+import Button from "@components/Button";
+import { eyeIcon } from "@utils/SVG";
 import Image from "next/image";
 
 export default function CaseStudiesCard({ cardNumber }) {

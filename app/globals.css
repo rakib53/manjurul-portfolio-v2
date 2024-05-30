@@ -386,13 +386,26 @@ body {
   margin-bottom: 170px;
 }
 
-.icon-button {
-  width: 3rem; /* Adjust to the size of your icon plus padding */
-  transition: width 0.3s ease-in-out; /* Smooth width transition */
+.bannerSticker {
+  animation: bannerStickerAnimation 4s linear infinite;
 }
 
-.icon-button:hover {
-  width: auto; /* Width adjusts to fit the content */
+@keyframes bannerStickerAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 @layer utilities {

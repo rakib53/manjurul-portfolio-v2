@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "@/app/components/Button";
-import Container from "@/app/components/Container";
-import { blackRightArrow, whiteRightArrow } from "@/utils/SVG";
+import Button from "@components/Button";
+import Container from "@components/Container";
+import { blackRightArrow, whiteRightArrow } from "@utils/SVG";
 import ExploreUIKitsCard from "./ExploreUIKitsCard";
 
 export default function ExploreUIKits() {
