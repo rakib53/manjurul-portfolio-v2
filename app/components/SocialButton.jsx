@@ -17,6 +17,7 @@ export default function SocialButton({
   return (
     <a
       href={href}
+      target="_blank"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={`socialBtn transition duration-300 ease-linear p-3 w-[44px] h-[44px] ${

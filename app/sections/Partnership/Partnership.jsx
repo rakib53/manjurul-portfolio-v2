@@ -16,7 +16,7 @@ const Partnership = () => {
       <Container>
         <div className="w-full relative">
           <div>
-            <span className="absolute w-full h-full top-[50%] left-0">
+            <span className="absolute w-full top-[50%] left-0">
               {heroSectionStarIcon}
             </span>
             <span className="absolute top-[50%] right-0">
@@ -44,12 +44,16 @@ const Partnership = () => {
           <div className="flex justify-center space-x-4 pt-[40px]">
             <Button
               label="Book a call"
+              link="https://cal.com/manjurul"
+              linkTarget="_blank"
               className="orange_btn flex items-center gap-[10px] py-2 px-4"
               icon={orangeRightArrow}
               iconPosition="right"
             />
             <Button
               label="Show reels"
+              link="https://www.youtube.com/watch?v=Pu_71gLGegk"
+              linkTarget="_blank"
               labelClass="text-gray800"
               className="white_btn flex items-center gap-[10px] py-2 px-4"
               icon={orangePlayIcon}

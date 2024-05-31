@@ -30,12 +30,16 @@ export default function ExploreUIKits() {
             <div className="flex flex-col gap-4">
               <Button
                 label="Explore all kits"
+                link="https://manjuruldesign.gumroad.com/"
+                linkTarget="_blank"
                 className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4"
                 icon={whiteRightArrow}
                 iconPosition="right"
               />
               <Button
                 label="Book a call"
+                link="https://cal.com/manjurul"
+                linkTarget="_blank"
                 labelClass="text-dark"
                 className="white_btn flex items-center justify-between gap-[10px] py-2 px-4"
                 icon={blackRightArrow}
@@ -49,18 +53,9 @@ export default function ExploreUIKits() {
               thumbnail={kitOne}
               link="https://manjuruldesign.gumroad.com/l/task"
             />
-            <ExploreUIKitsCard
-              thumbnail={kitTwo}
-              link="https://manjuruldesign.gumroad.com/l/task"
-            />
-            <ExploreUIKitsCard
-              thumbnail={kitThree}
-              link="https://manjuruldesign.gumroad.com/l/task"
-            />
-            <ExploreUIKitsCard
-              thumbnail={kitFour}
-              link="https://manjuruldesign.gumroad.com/l/task"
-            />
+            <ExploreUIKitsCard thumbnail={kitTwo} link="" />
+            <ExploreUIKitsCard thumbnail={kitThree} link="" />
+            <ExploreUIKitsCard thumbnail={kitFour} link="" />
           </div>
         </div>
       </Container>

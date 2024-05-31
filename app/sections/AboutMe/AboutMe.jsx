@@ -37,12 +37,16 @@ export default function AboutMe() {
             <div className="flex items-center gap-4">
               <Button
                 label="Book a call"
+                link="https://cal.com/manjurul"
+                linkTarget="_blank"
                 className="orange_btn flex items-center gap-[10px] py-2 px-4"
                 icon={orangeRightArrow}
                 iconPosition="right"
               />
               <Button
                 label="My resume"
+                link="https://drive.google.com/file/d/19mzhsmOTDttj0kBzWfMW4aHLupHPfGv3/view?usp=sharing"
+                linkTarget="_blank"
                 className="gray_btn flex items-center gap-[10px] py-2 px-4"
                 icon={resumeIcon}
                 iconPosition="left"

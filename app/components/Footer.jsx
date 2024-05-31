@@ -95,63 +95,99 @@ export default function Footer() {
         <div>
           <ul className="flex gap-3 items-center">
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.behance.net/manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Behance</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://dribbble.com/manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Dribbble</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.linkedin.com/in/manjuruldesign/"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Linkedin</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://medium.com/@manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Medium</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.figma.com/@manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Figma</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.instagram.com/manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Instagram</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://twitter.com/manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Twitter</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.facebook.com/manjuruldesign"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Facebook</span>
                 <span>{SocialLinkIcon}</span>
               </a>
             </li>
             <li className="max-w-[10px] max-h-[10px] min-w-[10px] min-h-[10px] w-full h-full block rounded-full bg-gray"></li>
             <li>
-              <a href="" className="flex items-center gap-[5px]">
+              <a
+                href="https://www.quora.com/profile/Md-Manjurul-Islam-13-1"
+                target="_blank"
+                className="flex items-center gap-[5px]"
+              >
                 <span>Quora</span>
                 <span>{SocialLinkIcon}</span>
               </a>

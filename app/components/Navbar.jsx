@@ -46,6 +46,8 @@ export default function Navbar() {
           <div className="flex items-center">
             <Button
               label="My resume"
+              link="https://drive.google.com/file/d/19mzhsmOTDttj0kBzWfMW4aHLupHPfGv3/view?usp=sharing"
+              linkTarget="_blank"
               className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4 font-rocGroteskMid"
               icon={noteIcon}
               iconPosition="left"

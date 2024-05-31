@@ -10,6 +10,7 @@ import SocialButton from "@components/SocialButton";
 import {
   behance,
   dribble,
+  linkedin,
   medium,
   orangePlayIcon,
   whiteRightArrow,
@@ -38,6 +39,8 @@ export default function Banner() {
             <div className="flex items-center gap-4 mt-6">
               <Button
                 label="Book a call"
+                link="https://cal.com/manjurul"
+                linkTarget="_blank"
                 className="orange_btn flex items-center justify-between gap-[10px] py-2 px-4"
                 icon={whiteRightArrow}
                 iconPosition="right"
@@ -45,6 +48,8 @@ export default function Banner() {
               <Button
                 label="Show reels"
                 labelClass="text-dark"
+                link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
+                linkTarget="_blank"
                 className="white_btn flex items-center justify-between gap-[10px] py-2 px-4"
                 icon={orangePlayIcon}
                 iconPosition="right"
@@ -52,6 +57,7 @@ export default function Banner() {
             </div>
             <div className="flex items-center gap-2 py-10">
               <SocialButton
+                href="https://www.behance.net/manjuruldesign"
                 label="Behance"
                 icon={behance}
                 className="flex items-center gap-[10px]"
@@ -59,6 +65,7 @@ export default function Banner() {
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
+                href="https://dribbble.com/manjuruldesign"
                 label="Dribble"
                 icon={dribble}
                 className="flex items-center gap-[10px]"
@@ -66,13 +73,15 @@ export default function Banner() {
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
+                href="https://www.linkedin.com/in/manjuruldesign/"
                 label="Linkedin"
-                icon={behance}
+                icon={linkedin}
                 className="flex items-center gap-[10px]"
                 hoverClass="!w-auto linkedinBtn cursor-pointer"
                 labelClass="text-white text-lg leading-[28px]"
               />
               <SocialButton
+                href="https://medium.com/@manjuruldesign"
                 label="Medium"
                 icon={medium}
                 className="flex items-center gap-[10px]"
@@ -85,7 +94,7 @@ export default function Banner() {
           <div className="relative">
             <Image src={manjurul} width={500} height={500} />
             <div
-              className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3 bannerSticker"
+              className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3"
               style={{
                 boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
               }}
