@@ -10,10 +10,18 @@ export default function ExploreUIKitsCard({ link, thumbnail }) {
       href={link || ""}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-full rounded-2xl overflow-hidden cursor-pointer"
+      className="block w-full h-fit cursor-pointer"
     >
-      <Image src={UI1} className="w-full max-h-[335px] h-full object-cover" />
-      <div className="p-4 bg-white flex flex-col gap-2">
+      <div className="max-h-[445px] h-full rounded-t-[16px] overflow-hidden">
+        <Image
+          src={thumbnail}
+          width="100%"
+          height="100%"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      <div className="p-4 bg-white h-auto flex flex-col gap-2 rounded-b-[16px]">
         <div className="flex justify-between items-center">
           <h4 className="text-gray900 text-[20px] leading-[30px] font-rocGroteskMid hover:text-orange">
             Dailyflow | Task Management | UI Kit

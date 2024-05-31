@@ -6,6 +6,8 @@ export default function Button({
   label,
   className,
   labelClass,
+  link,
+  linkTarget,
 }) {
   let render;
 
@@ -32,6 +34,18 @@ export default function Button({
   }
 
   return (
-    <button className={`font-rocGroteskMid ${className}`}>{render}</button>
+    <React.Fragment>
+      {link ? (
+        <a
+          href={link}
+          target={linkTarget ? linkTarget : "_parent"}
+          className={`font-rocGroteskMid ${className}`}
+        >
+          <button>{render}</button>
+        </a>
+      ) : (
+        <button className={`font-rocGroteskMid ${className}`}>{render}</button>
+      )}
+    </React.Fragment>
   );
 }

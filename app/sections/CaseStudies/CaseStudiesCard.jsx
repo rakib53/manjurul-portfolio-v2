@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
   return (
-    <div className="w-full h-full rounded-2xl overflow-hidden">
+    <div className="w-full h-fit rounded-2xl overflow-hidden">
       <div className="max-h-[445px] h-full">
         <a
           href={link || ""}
@@ -31,12 +31,13 @@ export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
               label="Read case study"
               labelClass="flex justify-center"
               link={link || ""}
+              linkTarget="_blank"
               className="w-full orange_btn flex items-center justify-between gap-[10px] py-2 px-4"
             />
             <Button
               label="Live preview"
               labelClass="text-dark"
-              className="w-full white_btn flex items-center justify-center gap-[10px] py-2 px-4 opacity-50"
+              className="w-full white_btn flex items-center justify-center gap-[10px] py-2 px-4 opacity-50 cursor-not-allowed"
               icon={eyeIcon}
               iconPosition="left"
             />

@@ -2,7 +2,11 @@
 
 const nextConfig = {
   images: {
-    domains: ["www.linkedin.com", "media.licdn.com"], // List of allowed hosts
+    domains: [
+      "www.linkedin.com",
+      "media.licdn.com",
+      "public-files.gumroad.com",
+    ], // List of allowed hosts
   },
 };
 

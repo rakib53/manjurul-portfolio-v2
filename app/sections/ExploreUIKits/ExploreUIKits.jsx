@@ -3,6 +3,10 @@ import Button from "@components/Button";
 import Container from "@components/Container";
 import { blackRightArrow, whiteRightArrow } from "@utils/SVG";
 import ExploreUIKitsCard from "./ExploreUIKitsCard";
+import kitOne from "@public/ui_kits/1.png";
+import kitTwo from "@public/ui_kits/2.png";
+import kitThree from "@public/ui_kits/3.png";
+import kitFour from "@public/ui_kits/4.png";
 
 export default function ExploreUIKits() {
   return (
@@ -42,12 +46,21 @@ export default function ExploreUIKits() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-9 pt-[60px]">
             <ExploreUIKitsCard
-              thumbnail="https://public-files.gumroad.com/49oprkph58wme9c7gpi2jfkn4f6q"
+              thumbnail={kitOne}
               link="https://manjuruldesign.gumroad.com/l/task"
             />
-            <ExploreUIKitsCard />
-            <ExploreUIKitsCard />
-            <ExploreUIKitsCard />
+            <ExploreUIKitsCard
+              thumbnail={kitTwo}
+              link="https://manjuruldesign.gumroad.com/l/task"
+            />
+            <ExploreUIKitsCard
+              thumbnail={kitThree}
+              link="https://manjuruldesign.gumroad.com/l/task"
+            />
+            <ExploreUIKitsCard
+              thumbnail={kitFour}
+              link="https://manjuruldesign.gumroad.com/l/task"
+            />
           </div>
         </div>
       </Container>
