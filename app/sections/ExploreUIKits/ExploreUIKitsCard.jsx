@@ -2,14 +2,20 @@ import React from "react";
 import UI1 from "../../../public/images/UI_KIT/UI1.png";
 import Image from "next/image";
 import me from "../../../public/images/UI_KIT/me.png";
+import Link from "next/link";
 
-export default function ExploreUIKitsCard() {
+export default function ExploreUIKitsCard({ link, thumbnail }) {
   return (
-    <div className="w-full rounded-2xl overflow-hidden">
+    <Link
+      href={link || ""}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full rounded-2xl overflow-hidden cursor-pointer"
+    >
       <Image src={UI1} className="w-full max-h-[335px] h-full object-cover" />
       <div className="p-4 bg-white flex flex-col gap-2">
         <div className="flex justify-between items-center">
-          <h4 className="text-gray900 text-[20px] leading-[30px] font-rocGroteskMid">
+          <h4 className="text-gray900 text-[20px] leading-[30px] font-rocGroteskMid hover:text-orange">
             Dailyflow | Task Management | UI Kit
           </h4>
           <span className="text-orange text-[22px] leading-[32px] font-rocGroteskMid">
@@ -45,6 +51,6 @@ export default function ExploreUIKitsCard() {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

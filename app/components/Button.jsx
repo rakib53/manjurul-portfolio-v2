@@ -31,5 +31,7 @@ export default function Button({
     );
   }
 
-  return <button className={className}>{render}</button>;
+  return (
+    <button className={`font-rocGroteskMid ${className}`}>{render}</button>
+  );
 }

@@ -16,7 +16,7 @@ export default function DesignExperience() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-[60px] pb-[16px]">
           <div className="p-9 rounded-xl flex flex-col gap-6 bg-[#FFECC8]">
-            <h3 className="text-gray700 text-[30px] leading-9 font-rocGroteskBold">
+            <h3 className="text-gray700 text-[28px] leading-9 font-rocGroteskBold">
               #1. User-Centric Interface Design
             </h3>
             <p className="text-gray800 text-base leading-6 font-rocGroteskReg">
@@ -26,7 +26,7 @@ export default function DesignExperience() {
           </div>
 
           <div className="p-9 rounded-xl flex flex-col gap-6 bg-[#DEF5E4]">
-            <h3 className="text-gray700 text-[30px] leading-9 font-rocGroteskBold">
+            <h3 className="text-gray700 text-[28px] leading-9 font-rocGroteskBold">
               #2. Design System Development
             </h3>
             <p className="text-gray800 text-base leading-6 font-rocGroteskReg">
@@ -37,7 +37,7 @@ export default function DesignExperience() {
           </div>
 
           <div className="p-9 rounded-xl flex flex-col gap-6 bg-[#FFE2F5]">
-            <h3 className="text-gray700 text-[30px] leading-9 font-rocGroteskBold">
+            <h3 className="text-gray700 text-[28px] leading-9 font-rocGroteskBold">
               #3. Prototyping & Iterative Design
             </h3>
             <p className="text-gray800 text-base leading-6 font-rocGroteskReg">
@@ -48,7 +48,7 @@ export default function DesignExperience() {
           </div>
 
           <div className="p-9 rounded-xl flex flex-col gap-6 bg-[#FFDECD]">
-            <h3 className="text-gray700 text-[30px] leading-9 font-rocGroteskBold">
+            <h3 className="text-gray700 text-[28px] leading-9 font-rocGroteskBold">
               #4. User Experience Optimization
             </h3>
             <p className="text-gray800 text-base leading-6 font-rocGroteskReg">

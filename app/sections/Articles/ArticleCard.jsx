@@ -3,7 +3,6 @@ import React from "react";
 export default function ArticleCard({ item }) {
   const { thumbnail, title, description } = item;
 
-  console.log(thumbnail);
   return (
     <div className="">
       <div

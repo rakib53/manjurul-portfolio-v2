@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { QuoteIcon } from "@utils/SVG";
 import LinkedIn from "@public/LinkedIn.png";
-import linkdienClient from "@public/linkdienClient.png";
 
-export default function Recommendations() {
+export default function Recommendations(props) {
+  const { description, name, company, title, profile } = props;
   return (
     <div className="p-10 rounded-3xl flex flex-col gap-[50px] bg-white">
       <div>
@@ -12,25 +12,22 @@ export default function Recommendations() {
       </div>
       <div>
         <p className="text-lg leading-7 text-gray800 font-rocGroteskReg">
-          Manjurul is an excellent and really talented designer. The
-          communication with him was flawless, and he nailed exactly what I
-          wanted. The whole design was extremely complete, with all the details
-          I could wish for. I'm looking forward to using all of these in my new
-          business. I'd recommend Manjurul and I'm going to work for him in the
-          future for sure.
+          {description?.length > 300
+            ? description?.slice(0, 220) + "..."
+            : description}
         </p>
       </div>
       <div className="flex justify-between">
         <div className="flex items-center gap-2">
-          <div>
-            <Image src={linkdienClient} />
+          <div className="w-[45px] h-[45px] rounded-full overflow-hidden">
+            <Image src={profile} width={100} height={100} />
           </div>
           <div className="flex flex-col">
             <h4 className="m-0 p-0 text-xl leading-[30px] text-gray900 font-rocGroteskBold">
-              Mohammad Rahman
+              {name}
             </h4>
             <span className="text-sm leading-5 font-rocGroteskReg text-gray600">
-              Founder, Farisha Foods
+              {company}, {title}
             </span>
           </div>
         </div>

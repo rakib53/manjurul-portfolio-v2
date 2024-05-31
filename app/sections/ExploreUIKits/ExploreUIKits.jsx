@@ -41,7 +41,10 @@ export default function ExploreUIKits() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-9 pt-[60px]">
-            <ExploreUIKitsCard />
+            <ExploreUIKitsCard
+              thumbnail="https://public-files.gumroad.com/49oprkph58wme9c7gpi2jfkn4f6q"
+              link="https://manjuruldesign.gumroad.com/l/task"
+            />
             <ExploreUIKitsCard />
             <ExploreUIKitsCard />
             <ExploreUIKitsCard />

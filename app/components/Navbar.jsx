@@ -46,7 +46,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Button
               label="My resume"
-              className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4"
+              className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4 font-rocGroteskMid"
               icon={noteIcon}
               iconPosition="left"
             />
