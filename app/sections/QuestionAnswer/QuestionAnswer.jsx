@@ -1,9 +1,8 @@
 "use client";
-import React from "react";
-import Button from "@components/Button";
 import { rightArrow } from "@utils/SVG";
-import Container from "@components/Container";
-import Accordion from "@components/Accordion/Accordion";
+import Accordion from "app/components/Accordion/Accordion";
+import Button from "app/components/Button";
+import Container from "app/components/Container";
 
 export default function QuestionAnswer() {
   return (

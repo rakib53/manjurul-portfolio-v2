@@ -1,18 +1,17 @@
-import React from "react";
-import Image from "next/image";
 import peoples from "@public/peoples.png";
-import Button from "@components/Button";
-import Container from "@components/Container";
 import {
   heroSectionStarIcon,
   heroSmallSectionStarIcon,
   orangePlayIcon,
   orangeRightArrow,
 } from "@utils/SVG";
+import Button from "app/components/Button";
+import Container from "app/components/Container";
+import Image from "next/image";
 
 const Partnership = () => {
   return (
-    <section className="bg-[#A6DEF7] py-[110px] flex flex-col items-center text-center">
+    <section className="py-[100px] flex flex-col items-center text-center partnership">
       <Container>
         <div className="w-full relative">
           <div>
@@ -30,7 +29,7 @@ const Partnership = () => {
             </span>
           </div>
           <div className="w-full flex justify-center mb-20">
-            <Image src={peoples} />
+            <Image src={peoples} alt="" />
           </div>
           <div>
             <h3 className="sectionTitle">

@@ -1,8 +1,7 @@
-import React from "react";
 import companyOne from "@public/dribble_shots/db1.png";
 import companyTwo from "@public/dribble_shots/db2.png";
 import companyThree from "@public/dribble_shots/db3.png";
-import MarqueeSlider from "@components/MarqueeSlider/MarqueeSlider";
+import MarqueeSlider from "app/components/MarqueeSlider/MarqueeSlider";
 
 export default function DribbleShots() {
   const sliderOne = [

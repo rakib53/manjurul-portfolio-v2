@@ -1,16 +1,15 @@
 "use client";
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
-import Recommendations from "@components/LinkdienRecommendations/Recommendations";
 import { nextSliderIcon, prevSliderIcon } from "@utils/SVG";
+import Recommendations from "app/components/LinkdienRecommendations/Recommendations";
+import { Navigation, Pagination } from "swiper/modules";
 
 const linkedinTestimonials = [
   {

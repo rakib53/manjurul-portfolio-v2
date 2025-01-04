@@ -1,5 +1,4 @@
-import Container from "@components/Container";
-import React from "react";
+import Container from "app/components/Container";
 
 export default function DesignExperience() {
   return (

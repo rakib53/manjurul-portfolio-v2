@@ -1,12 +1,11 @@
-import React from "react";
-import Button from "@components/Button";
-import Container from "@components/Container";
-import { blackRightArrow, whiteRightArrow } from "@utils/SVG";
-import ExploreUIKitsCard from "./ExploreUIKitsCard";
 import kitOne from "@public/ui_kits/1.png";
 import kitTwo from "@public/ui_kits/2.png";
 import kitThree from "@public/ui_kits/3.png";
 import kitFour from "@public/ui_kits/4.png";
+import { blackRightArrow, whiteRightArrow } from "@utils/SVG";
+import Button from "app/components/Button";
+import Container from "app/components/Container";
+import ExploreUIKitsCard from "./ExploreUIKitsCard";
 
 export default function ExploreUIKits() {
   return (

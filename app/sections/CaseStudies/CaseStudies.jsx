@@ -1,24 +1,33 @@
-import Container from "@components/Container";
-import React from "react";
-import CaseStudiesCard from "./CaseStudiesCard";
 import case_study1 from "@public/case_study/1.png";
 import case_study2 from "@public/case_study/2.png";
 import case_study3 from "@public/case_study/3.png";
 import case_study4 from "@public/case_study/4.png";
+import Button from "app/components/Button";
+import Container from "app/components/Container";
+import CaseStudiesCard from "./CaseStudiesCard";
 
 export default function CaseStudies() {
   return (
-    <section className="w-full bg-[#F5F5F5] py-[100px]" id="portfolio">
+    <section className="w-full bg-white py-[100px]" id="portfolio">
       <Container>
-        <div>
-          <h3 className="sectionTitle">
-            Transformative Solutions: Notable Case Studies
-          </h3>
-          <p className="sectionDesc">
-            Discover How Data-Driven Design Delivered Unparalleled Results for
-            Leading SaaS Ventures.
-          </p>
+        <div className="flex justify-between">
+          <div>
+            <h3 className="sectionTitle !text-left">Noteworthy Case Studies</h3>
+            <p className="sectionDesc !text-left">
+              Discover How Data-Driven Design Delivered Unparalleled Results.
+            </p>
+          </div>
+          <div>
+            <Button
+              label="Explore more"
+              link="https://drive.google.com/file/d/19mzhsmOTDttj0kBzWfMW4aHLupHPfGv3/view?usp=sharing"
+              linkTarget="_blank"
+              className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4 font-rocGroteskMid"
+              iconPosition="left"
+            />
+          </div>
         </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px] pt-[60px]">
           <CaseStudiesCard
             cardNumber="1+"

@@ -1,9 +1,8 @@
 "use client";
-import React from "react";
+import Container from "app/components/Container";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import ArticleSlider from "./ArticleSlider";
-import Container from "@components/Container";
 
 export default function Article() {
   const [profile, setProfile] = useState({

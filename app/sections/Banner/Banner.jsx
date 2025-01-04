@@ -1,12 +1,6 @@
-import React from "react";
-import Container from "@components/Container";
-import Navbar from "@components/Navbar";
-import Button from "@components/Button";
 import manjurul from "@public/banner/manjurul.png";
-import Image from "next/image";
-import Upwork from "@public/upwork.png";
 import invisible from "@public/invisible.png";
-import SocialButton from "@components/SocialButton";
+import Upwork from "@public/upwork.png";
 import {
   behance,
   dribble,
@@ -15,6 +9,11 @@ import {
   orangePlayIcon,
   whiteRightArrow,
 } from "@utils/SVG";
+import Button from "app/components/Button";
+import Container from "app/components/Container";
+import Navbar from "app/components/Navbar";
+import SocialButton from "app/components/SocialButton";
+import Image from "next/image";
 
 export default function Banner() {
   return (
@@ -92,14 +91,14 @@ export default function Banner() {
           </div>
 
           <div className="relative">
-            <Image src={manjurul} width={500} height={500} />
+            <Image src={manjurul} width={500} height={500} alt="" />
             <div
               className="absolute right-[-100px] top-[80px] flex items-center gap-3 bg-white rounded-[500px] py-2 px-3"
               style={{
                 boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
               }}
             >
-              <Image src={invisible} />
+              <Image src={invisible} alt="" />
               <span className="text-[13.5px] leading-5 font-rocGroteskMid text-gray800">
                 UI/UX Designer at <br /> @Invisible studio
               </span>
@@ -111,7 +110,7 @@ export default function Banner() {
                 boxShadow: "0px 24px 48px -12px rgba(16, 24, 40, 0.18)",
               }}
             >
-              <Image src={Upwork} />
+              <Image src={Upwork} alt="" />
               <span className="text-[20px] leading-[32px] font-rocGroteskMid text-gray800">
                 Top rated seller <br /> at @upwork
               </span>

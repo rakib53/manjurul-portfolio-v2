@@ -1,8 +1,6 @@
-import React from "react";
-import UI1 from "../../../public/images/UI_KIT/UI1.png";
 import Image from "next/image";
-import me from "../../../public/images/UI_KIT/me.png";
 import Link from "next/link";
+import me from "../../../public/images/UI_KIT/me.png";
 
 export default function ExploreUIKitsCard({ link, thumbnail }) {
   return (
@@ -18,6 +16,7 @@ export default function ExploreUIKitsCard({ link, thumbnail }) {
           width="100%"
           height="100%"
           className="w-full h-full object-cover"
+          alt=""
         />
       </div>
 
@@ -31,7 +30,7 @@ export default function ExploreUIKitsCard({ link, thumbnail }) {
           </span>
         </div>
         <div className="flex gap-2 items-center">
-          <Image src={me} />
+          <Image src={me} about="" />
           <div className="flex items-center gap-1">
             <span className="text-sm font-rocGroteskMid leading-5 text-gray600">
               Md manjurul islam

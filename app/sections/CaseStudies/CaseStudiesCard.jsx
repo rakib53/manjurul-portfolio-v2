@@ -1,6 +1,3 @@
-import React from "react";
-import Button from "@components/Button";
-import { eyeIcon } from "@utils/SVG";
 import Image from "next/image";
 
 export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
@@ -13,11 +10,15 @@ export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
           rel="noopener noreferrer"
           className="block w-full h-full"
         >
-          <Image src={thumbnail} className="w-full h-full object-cover" />
+          <Image
+            src={thumbnail}
+            className="w-full h-full object-cover"
+            alt="thumbnail"
+          />
         </a>
       </div>
 
-      <div className="p-6 pr-4 bg-white flex justify-between gap-[90px]">
+      {/* <div className="p-6 pr-4 bg-white flex justify-between gap-[90px]">
         <h2 className="text-[50px] leading-[60px] text-gray100 font-rocGroteskMid">
           {cardNumber}
         </h2>
@@ -43,7 +44,7 @@ export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
