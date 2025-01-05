@@ -385,6 +385,17 @@ body {
   animation: bannerStickerAnimation 4s linear infinite;
 }
 
+.partnership {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../public/partnership/bg.png");
+  background-size: cover;
+}
+.footer {
+  width: 100%;
+  background-image: url("../public/footer/bg.png");
+}
+
 @keyframes bannerStickerAnimation {
   0% {
     transform: translateY(-10px);
