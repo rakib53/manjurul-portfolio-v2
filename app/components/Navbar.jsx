@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul className="flex items-center gap-[30px]">
           <li className="bg-white py-2 px-4 rounded-md">
             <Link
-              href="#portfolio"
+              href="/"
               className="text-sm text-[#101828] opacity-85 font-rocGroteskMid tracking-[ 0.56px]"
             >
               Home

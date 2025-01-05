@@ -20,10 +20,10 @@ export default function CaseStudies() {
           <div>
             <Button
               label="Explore more"
-              link="https://drive.google.com/file/d/19mzhsmOTDttj0kBzWfMW4aHLupHPfGv3/view?usp=sharing"
+              labelClass="text-[#00432B] text-lg font-rocGroteskMid text-lg leading-7 tracking-[-0.72px]"
+              link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
               linkTarget="_blank"
-              className="gray_btn flex items-center justify-between gap-[10px] py-2 px-4 font-rocGroteskMid"
-              iconPosition="left"
+              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-transparent border border-[#00432B] rounded-md"
             />
           </div>
         </div>

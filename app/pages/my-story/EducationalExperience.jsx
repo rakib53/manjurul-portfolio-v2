@@ -1,27 +1,18 @@
-import Button from "@components/Button";
 import Container from "@components/Container";
 
-export default function WorkExperience() {
+export default function EducationalExperience() {
   return (
-    <section className="w-full px-6">
+    <section className="w-full px-6 my-3">
       <div className="bg-white py-[100px] rounded-xl">
         <Container>
           <div className="flex justify-between">
             <div>
-              <h3 className="sectionTitle !text-left">Work Experience.</h3>
+              <h3 className="sectionTitle !text-left">
+                Educational Background
+              </h3>
               <p className="sectionDesc !text-left">
-                A showcase of my professional journey and impactful
-                contributions.
+                A showcase of my educational journey and learning growth.
               </p>
-            </div>
-            <div>
-              <Button
-                label="Explore more"
-                labelClass="text-[#00432B] text-lg font-rocGroteskMid text-lg leading-7 tracking-[-0.72px]"
-                link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
-                linkTarget="_blank"
-                className="flex items-center justify-between gap-[10px] py-2 px-4 bg-transparent border border-[#00432B] rounded-md"
-              />
             </div>
           </div>
 
@@ -31,39 +22,38 @@ export default function WorkExperience() {
               <div className="flex justify-between items-center mb-[28px]">
                 <div>
                   <h1 className="text-[40px] tracking-[-1.2px] font-rocGroteskMid text-[#667085]">
-                    Senior Product Designer,{" "}
-                    <strong className="text-[#101828]">Synergy Labs</strong>
+                    Bachelor of science -{" "}
+                    <strong className="text-[#101828]">
+                      Political Science
+                    </strong>
                   </h1>
                   <span className="text-[#344054] text-2xl font-normal tracking-[-0.72px] leading-[31px] font-rocGroteskReg opacity-[0.6]">
-                    Miami, Florida, United States · Remote
+                    National university, Bangladesh
                   </span>
                 </div>
                 <div>
                   <span className="text-[#949493] font-base font-medium font-rocGroteskMid">
-                    Oct 2024 - Present
+                    Jul 2021 - Jun 2024
                   </span>
                 </div>
               </div>
               <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
                 <span>
-                  Synergy Labs is a #1 Boutique Mobile App Development Agency
-                  according to Clutch, The Manifest, and Forbes based in Miami,
-                  Florida, United States. As a Senior Product Designer, my key
-                  responsibilities is to: <br />
+                  National University is one of the leading educational
+                  institutions in Bangladesh, offering comprehensive academic
+                  programs. As a graduate, my key accomplishments and
+                  experiences include:
+                  <br />
                   <br />
                 </span>
                 <ul>
                   <li>
-                    ✦ Design mobile app products according to clients
-                    requirements.
+                    ✦ Completing a rigorous academic curriculum focused on
+                    Political Science.
                   </li>
                   <li>
-                    ✦ Design flutter flow mobile app templates for internal
-                    products.
-                  </li>
-                  <li>
-                    ✦ Always align with project manager and design leads to
-                    support design updates on client projects.
+                    ✦ Engaging in extracurricular activities that honed my
+                    leadership, teamwork, and problem-solving skills.
                   </li>
                 </ul>
               </div>
@@ -74,46 +64,40 @@ export default function WorkExperience() {
               <div className="flex justify-between items-center mb-[28px]">
                 <div>
                   <h1 className="text-[40px] tracking-[-1.2px] font-rocGroteskMid text-[#667085]">
-                    Product Designer,{" "}
-                    <strong className="text-[#101828]">Invisible Studio</strong>
+                    Higher secondary school certificate -{" "}
+                    <strong className="text-[#101828]">Science</strong>
                   </h1>
                   <span className="text-[#344054] text-2xl font-normal tracking-[-0.72px] leading-[31px] font-rocGroteskReg opacity-[0.6]">
-                    Mumbai, Maharashtra, India · Remote
+                    Cantonment College, Jashore.
                   </span>
                 </div>
                 <div>
                   <span className="text-[#949493] font-base font-medium font-rocGroteskMid">
-                    Sep 2022 - Oct 2024
+                    Jun 2017 - Jun 2019
                   </span>
                 </div>
               </div>
               <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
                 <span>
-                  Invisible Studio is a user experience agency based in Mumbai,
-                  specializing in building SaaS, IoT, and DeFi products. As a
-                  Product Designer, I have undertaken the following key
-                  responsibilities:
+                  Cantonment College, Jashore, established in 1969 in Arabpur,
+                  Jashore, is a prestigious institution regulated by the
+                  cantonment board and the Bangladesh Army. With 3,500 students
+                  and 80 teachers, it is renowned for academic excellence:
                   <br />
                   <br />
                 </span>
                 <ul>
                   <li>
-                    ✦ Served as the Design Lead for Proptechbuzz's mobile and
-                    web applications.
+                    ✦ Building a strong foundation in core science subjects such
+                    as Physics, Chemistry, and Mathematics.
                   </li>
                   <li>
-                    ✦ Developed comprehensive design systems for both platforms.
+                    ✦ Actively participating in co-curricular activities to
+                    enhance critical thinking and teamwork skills.
                   </li>
                   <li>
-                    ✦ Lead the mobile app MVP design and oversaw the web app
-                    redesign utilizing the new design system.
-                  </li>
-                  <li>
-                    ✦ Acted as the Visual Lead for Svmman Fintech's mobile app.
-                  </li>
-                  <li>
-                    ✦ Conducted research, strategy development, and design for
-                    over four internal web applications.
+                    ✦ Successfully completing the HSC curriculum with
+                    distinction and dedication.
                   </li>
                 </ul>
               </div>
@@ -124,39 +108,40 @@ export default function WorkExperience() {
               <div className="flex justify-between items-center mb-[28px]">
                 <div>
                   <h1 className="text-[40px] tracking-[-1.2px] font-rocGroteskMid text-[#667085]">
-                    Product Designer,{" "}
-                    <strong className="text-[#101828]">PXELO</strong>
+                    Secondary school certificate -{" "}
+                    <strong className="text-[#101828]">Science</strong>
                   </h1>
                   <span className="text-[#344054] text-2xl font-normal tracking-[-0.72px] leading-[31px] font-rocGroteskReg opacity-[0.6]">
-                    Tangail, Dhaka, Bangladesh · Remote
+                    Nakipur H.C Pilot Model GOVT High School
                   </span>
                 </div>
                 <div>
                   <span className="text-[#949493] font-base font-medium font-rocGroteskMid">
-                    Jun 2021 - Aug 2022
+                    Jan 2015 - Dec 2017
                   </span>
                 </div>
               </div>
               <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
                 <span>
-                  Pexlo is a service-based design agency founded on a deep
-                  commitment to creativity and innovation. As a Product Designer
-                  at Pexlo, I have contributed to the following key projects:
+                  Nakipur H.C. Pilot Model Govt. High School is one of the
+                  oldest and most prestigious educational institutions in the
+                  Satkhira district, established in 1899 by Hari Charan Roy. As
+                  a proud alumnus, my key experiences and achievements include:
                   <br />
                   <br />
                 </span>
                 <ul>
                   <li>
-                    ✦ Translated the Brac Kumon concept into a web-based
-                    platform for Brac Limited.
+                    ✦ Successfully completing my Secondary School Certificate
+                    with a strong foundation in science.
                   </li>
                   <li>
-                    ✦ Led the redesign of Uttara University’s website,
-                    introducing a new design system.
+                    ✦ Actively participating in extracurricular activities, e.g.
+                    school debates, sports, cultural programs.
                   </li>
                   <li>
-                    ✦ Created an innovative visual style for the website of
-                    Dhaka Journal.
+                    ✦ Developing essential skills like discipline, teamwork, and
+                    leadership during my time at this historic institution.
                   </li>
                 </ul>
               </div>

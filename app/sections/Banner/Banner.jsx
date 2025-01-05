@@ -1,14 +1,12 @@
 import inline_image from "@public/inline_image.png";
 import { behance, dribble, linkedin } from "@utils/SVG";
 import Button from "app/components/Button";
-import Navbar from "app/components/Navbar";
 import SocialButton from "app/components/SocialButton";
 import Image from "next/image";
 
 export default function Banner() {
   return (
     <header className="w-full px-6">
-      <Navbar />
       <div className="w-full flex justify-between items-center pt-[100px] bg-[url('/header.png')] bg-cover bg-center rounded-xl">
         <div className="w-full flex flex-col items-center gap-6">
           {/* Hey, Dream Chaser! 🚀 */}

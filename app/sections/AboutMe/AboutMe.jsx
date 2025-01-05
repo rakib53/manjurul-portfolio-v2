@@ -30,7 +30,29 @@ export default function AboutMe() {
               creativity, and attention to detail.
             </p>
             <div className="flex items-center gap-4">
-              <Link href="sdsds">Learn my story</Link>
+              <Link
+                href="/my-story"
+                className="flex items-center gap-1 text-[#00432B] text-lg font-rocGroteskMid leading-7 tracking-[-0.72px]"
+              >
+                <span>Learn my story</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.46355 9.99996H16.1302M16.1302 9.99996L10.2969 4.16663M16.1302 9.99996L10.2969 15.8333"
+                      stroke="#00432B"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </Link>
             </div>
           </div>
         </div>

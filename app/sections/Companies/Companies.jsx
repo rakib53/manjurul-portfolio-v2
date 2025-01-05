@@ -33,6 +33,7 @@ export default function Companies() {
       </p> */}
       <MarqueeSlider
         width={280}
+        padding={20}
         reverse={false}
         contents={companies}
         prefix="companies"

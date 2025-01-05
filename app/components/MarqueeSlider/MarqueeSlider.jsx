@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 const ContinuesSlider = (props) => {
@@ -67,7 +66,7 @@ const ContinuesSlider = (props) => {
         {contents?.map((c, index) => {
           return (
             <div className={`slide${prefix}`} key={index}>
-              <Image src={c} alt="" />
+              <Image src={c} alt="" className="w-[170px]" />
             </div>
           );
         })}
@@ -75,7 +74,7 @@ const ContinuesSlider = (props) => {
         {contents?.map((c, index) => {
           return (
             <div className={`slide${prefix}`} key={index}>
-              <Image src={c} alt="" />
+              <Image src={c} alt="" className="w-[170px]" />
             </div>
           );
         })}
@@ -85,49 +84,3 @@ const ContinuesSlider = (props) => {
 };
 
 export default ContinuesSlider;
-
-// <div className={`slideTrack${prefix}`}>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyOne} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyThree} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyOne} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyThree} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// {/* Duplicate slides */}
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyOne} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyThree} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyOne} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyThree} />
-// </div>
-// <div className={`slide${prefix}`}>
-//   <Image src={CompanyTwo} />
-// </div>
-// </div>
