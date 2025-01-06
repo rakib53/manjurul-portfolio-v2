@@ -2,12 +2,12 @@ export default function Footer() {
   return (
     <section className="w-full px-6 pb-6">
       <div className="footer bg-dark rounded-b-xl">
-        <div className="py-[116px]">
+        <div className="py-[56px] sm:py-[116px]">
           <div className="flex flex-col gap-1">
-            <h3 className="text-center font-rocGroteskMid tracking-[-0.9px] text-white text-[30px]">
+            <h3 className="text-center font-rocGroteskMid tracking-[-0.9px] text-white text-lg sm:text-[30px]">
               Get in touch today
             </h3>
-            <h2 className="text-white tracking-[-2.34px] text-[78px] text-center leading-normal font-rocGroteskBold">
+            <h2 className="text-white sm:tracking-[-2.34px] text-[28px] sm:text-[78px] text-center leading-normal font-rocGroteskBold">
               hellomanjurul@gmail.com
             </h2>
 

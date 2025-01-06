@@ -1,6 +1,7 @@
 import Footer from "@components/Footer";
 import Partnership from "@sections/Partnership/Partnership";
 import WorkExperience from "@sections/WorkExperience/WorkExperience";
+import CommunityActivities from "app/pages/my-story/CommunityActivities";
 import EducationalExperience from "app/pages/my-story/EducationalExperience";
 import MyAchievement from "app/pages/my-story/MyAchievement";
 import MyCertifications from "app/pages/my-story/MyCertifications";
@@ -16,6 +17,7 @@ export default function page() {
       <MyCertifications />
       <WorkExperience />
       <MyAchievement />
+      <CommunityActivities />
       <Partnership />
       <Footer />
     </main>
