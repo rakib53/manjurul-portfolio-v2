@@ -18,7 +18,7 @@ export default function Banner() {
 
           {/* Content  */}
           <div className="flex flex-col">
-            <h1 className="text-[#F7F6EF] font-rocGroteskReg text-[54px] text-center">
+            <h1 className="text-[#F7F6EF] tracking-[-2.7px] font-rocGroteskReg text-[54px] text-center">
               I’m
               <Image
                 src={inline_image}

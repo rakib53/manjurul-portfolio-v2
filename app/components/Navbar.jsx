@@ -41,7 +41,7 @@ export default function Navbar() {
           <span className="">Md Manjurul Islam</span>
         </div>
 
-        <ul className="hidden sm:flex items-center gap-[30px]">
+        <ul className="hidden sm:flex items-center">
           <li
             className={`${
               whatPage === "home"
