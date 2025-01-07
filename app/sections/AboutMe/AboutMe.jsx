@@ -7,20 +7,19 @@ export default function AboutMe() {
   return (
     <section className="pt-[113px] pb-[160px]" id="about-me">
       <Container>
-        <div className="flex justify-between gap-11 items-center bg-white rounded-s-3xl rounded-xl overflow-hidden">
-          <div className="w-1/2">
+        <div className="flex justify-between gap-11 items-stretch bg-white rounded-s-3xl rounded-xl overflow-hidden">
+          <div className="w-1/2 !h-auto">
             <Image
               src={about_me}
-              height={500}
-              className="w-full"
+              className="w-full !h-[580px] object-cover"
               alt="Manjurul islam designer"
             />
           </div>
-          <div className="flex flex-col gap-10 w-1/2 pr-10">
-            <h3 className="sectionTitle !text-left text-[#1D2939]">
+          <div className="flex flex-col w-1/2 pr-10 py-10">
+            <h3 className="font-rocGroteskBold text-[36px] leading-[48px] tracking-[#1D2939] text-left text-[#1D2939] mb-4">
               Product designer with Design systems expertise.
             </h3>
-            <p className="sectionDesc !text-left">
+            <p className="sectionDesc !text-left pb-[80px]">
               I’m a Product Designer with over 5 years of expertise in crafting
               intuitive user interfaces and developing scalable design systems.
               Proven ability to lead cross-functional teams, solve complex
@@ -29,6 +28,7 @@ export default function AboutMe() {
               user needs into innovative designs, with a focus on efficiency,
               creativity, and attention to detail.
             </p>
+
             <div className="flex items-center gap-4">
               <Link
                 href="/my-story"
@@ -103,7 +103,7 @@ export default function AboutMe() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard1">
+          <div className="w-full h-[360px] p-6 rounded-[20px] bg-white relative overflow-hidden experienceCard1">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 5+
@@ -114,7 +114,7 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard2">
+          <div className="w-full h-[360px] p-6 rounded-[20px] bg-white relative overflow-hidden experienceCard2">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 120+
@@ -125,7 +125,7 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard3">
+          <div className="w-full h-[360px] p-6 rounded-[20px] bg-white relative overflow-hidden experienceCard3">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 500+
@@ -136,7 +136,7 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard4">
+          <div className="w-full h-[360px] p-6 rounded-[20px] bg-white relative overflow-hidden experienceCard4">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
               <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 350+

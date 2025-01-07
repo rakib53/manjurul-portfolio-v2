@@ -187,8 +187,9 @@ body {
 .experienceCard1::after {
   content: "";
   position: absolute;
-  right: -110.5px;
-  top: -142px;
+  right: 0;
+  left: 0;
+  top: -162px;
   width: 100%;
   height: 100%;
   border-radius: 330px;
@@ -199,8 +200,9 @@ body {
 .experienceCard2::after {
   content: "";
   position: absolute;
-  right: -110.5px;
-  top: -142px;
+  right: 0;
+  left: 0;
+  top: -162px;
   width: 100%;
   height: 100%;
   border-radius: 330px;
@@ -211,8 +213,9 @@ body {
 .experienceCard3::after {
   content: "";
   position: absolute;
-  right: -110.5px;
-  top: -142px;
+  right: 0;
+  left: 0;
+  top: -162px;
   width: 100%;
   height: 100%;
   border-radius: 330px;
@@ -223,8 +226,9 @@ body {
 .experienceCard4::after {
   content: "";
   position: absolute;
-  right: -110.5px;
-  top: -142px;
+  right: 0;
+  left: 0;
+  top: -162px;
   width: 100%;
   height: 100%;
   border-radius: 330px;

@@ -3,7 +3,7 @@ import Container from "@components/Container";
 
 export default function WorkExperience() {
   return (
-    <section className="w-full px-6">
+    <section className="max-w-[1440px] mx-auto px-6">
       <div className="bg-white py-[100px] rounded-xl">
         <Container>
           <div className="flex justify-between">
