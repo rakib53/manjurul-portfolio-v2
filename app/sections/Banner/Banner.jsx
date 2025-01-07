@@ -46,7 +46,7 @@ export default function Banner() {
               target="_"
               className="w-[160px] flex items-center justify-between py-2 px-4 bg-[#F7F6EF] border border-[#B9F49B] rounded-md text-[#00432B] text-lg group transition-all duration-300 font-rocGroteskMid book_a_call_white"
             >
-              <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
+              <span className="flex items-center max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -63,7 +63,7 @@ export default function Banner() {
                   />
                 </svg>
               </span>
-              <span>Book a call</span>
+              <span className="flex items-center pt-1">Book a call</span>
               <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
                 <svg
                   stroke="#00432B"
@@ -104,7 +104,7 @@ export default function Banner() {
                   />
                 </svg>
               </span>
-              <span>My resume</span>
+              <span className="flex items-center pt-1">My resume</span>
               <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
                 <svg
                   stroke="#00432B"

@@ -42,7 +42,7 @@ const Partnership = () => {
                   />
                 </svg>
               </span>
-              <span>Book a call</span>
+              <span className="flex items-center pt-1">Book a call</span>
               <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
                 <svg
                   stroke="#ffff"
@@ -83,7 +83,7 @@ const Partnership = () => {
                   />
                 </svg>
               </span>
-              <span>Project library</span>
+              <span className="flex items-center pt-1">Project library</span>
               <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
                 <svg
                   stroke="#00432B"
