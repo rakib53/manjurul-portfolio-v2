@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutMe() {
   return (
-    <section className="pt-[113px] pb-[160px]" id="about-me">
+    <section className="pt-[113px] pb-[120px]" id="about-me">
       <Container>
         <div className="flex justify-between gap-11 items-stretch bg-white rounded-s-3xl rounded-xl overflow-hidden">
           <div className="w-1/2 !h-auto">

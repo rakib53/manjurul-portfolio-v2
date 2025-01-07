@@ -2,7 +2,7 @@ import Container from "@components/Container";
 
 export default function EducationalExperience() {
   return (
-    <section className="w-full px-6 my-3">
+    <section className="w-full max-w-[1440px] mx-auto my-3">
       <div className="bg-white py-[100px] rounded-xl">
         <Container>
           <div className="flex justify-between">

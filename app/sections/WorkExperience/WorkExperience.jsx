@@ -15,7 +15,7 @@ export default function WorkExperience() {
               </p>
             </div>
             <div>
-              <ExploreMoreBtn link="/my-story" target="" />
+              <ExploreMoreBtn link="/my-story#work_experience" target="" />
             </div>
           </div>
 

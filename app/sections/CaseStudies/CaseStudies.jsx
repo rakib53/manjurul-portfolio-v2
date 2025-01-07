@@ -8,7 +8,10 @@ import CaseStudiesCard from "./CaseStudiesCard";
 
 export default function CaseStudies() {
   return (
-    <section className="w-full bg-white py-[100px]" id="portfolio">
+    <section
+      className="w-full max-w-[1440px] mx-auto bg-white py-[100px] rounded-xl"
+      id="portfolio"
+    >
       <Container>
         <div className="flex justify-between">
           <div>
@@ -29,7 +32,7 @@ export default function CaseStudies() {
           <CaseStudiesCard
             cardNumber="1+"
             thumbnail={case_study1}
-            link="https://www.behance.net/gallery/198875889/Adjective-Screenshot-Beautifier-SaaS-Web-Application"
+            link="https://www.behance.net/gallery/215351125/Pxelo-Corporate-Agency-Website-Design"
           />
           <CaseStudiesCard
             cardNumber="2+"
@@ -39,12 +42,12 @@ export default function CaseStudies() {
           <CaseStudiesCard
             cardNumber="3+"
             thumbnail={case_study3}
-            link="https://www.behance.net/gallery/198878951/Invisible-icon-library-SaaS-Web-Application"
+            link="https://www.behance.net/gallery/198875889/Adjective-Screenshot-Beautifier-SaaS-Web-Application"
           />
           <CaseStudiesCard
             cardNumber="4+"
             thumbnail={case_study4}
-            link="https://www.behance.net/gallery/198883057/Invisible-Design-Gallery-SaaS-Web-Application"
+            link="https://www.behance.net/gallery/209029753/Svamaan-Fintech-Mobile-App"
           />
         </div>
       </Container>

@@ -9,7 +9,6 @@ export default function Navbar() {
   const [whatPage, setWhatPage] = useState("home");
   const pathname = usePathname();
   const showMenuRef = useRef(null);
-  const hamburgerRef = useRef(null); // New ref for the hamburger icon
 
   useEffect(() => {
     if (pathname === "/") {
@@ -35,10 +34,12 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="w-full py-5 px-6">
+    <div className="w-full max-w-[1440px] mx-auto py-5">
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col text-gray800 text-lg leading-7 tracking-[0.305px] font-rocGroteskBold">
-          <span className="">Md Manjurul Islam</span>
+          <Link href="/" className="">
+            Md Manjurul Islam
+          </Link>
         </div>
 
         <ul className="hidden sm:flex items-center">
@@ -73,7 +74,11 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden sm:flex items-center">
-          <a href="" className="flex items-center gap-2">
+          <a
+            href="https://cal.com/manjurul"
+            target="_"
+            className="flex items-center gap-2"
+          >
             <span className="text-[#7C7C7C] font-rocGroteskMid text-sm tracking-[-0.28px]">
               Contact me
             </span>

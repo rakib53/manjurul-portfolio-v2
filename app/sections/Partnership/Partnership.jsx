@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Partnership = () => {
   return (
-    <section className="w-full px-6 flex flex-col items-center text-center">
+    <section className="w-full max-w-[1440px] mx-auto flex flex-col items-center text-center">
       <div className="partnership py-[120px] flex flex-col gap-11 items-center">
         <div className="w-full flex justify-center">
           <Image src={peoples} alt="" />
@@ -64,7 +64,7 @@ const Partnership = () => {
             <Link
               href="https://www.behance.net/manjuruldesign"
               target="_"
-              className="w-[190px] flex items-center justify-between py-2 px-4 bg-[#F7F6EF] rounded-md text-[#00432B] text-lg group transition-all duration-300 font-rocGroteskMid book_a_call_white"
+              className="w-[190px] flex items-center justify-between py-2 px-4 bg-[#F7F6EF] rounded-md text-[#00432B] text-lg group transition-all duration-300 font-rocGroteskMid project_library_btn"
             >
               <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg

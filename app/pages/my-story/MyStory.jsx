@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function MyStory() {
   return (
-    <section className="my-4 px-6">
+    <section className="w-full max-w-[1440px] mx-auto my-4">
       <div className="flex gap-4">
         <div className="max-w-[450px] w-full">
           <Image src={my_story_image} alt="" />

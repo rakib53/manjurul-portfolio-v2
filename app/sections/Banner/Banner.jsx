@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <header className="w-full px-6">
+    <header className="w-full max-w-[1440px] mx-auto">
       <div className="w-full flex justify-between items-center pt-[100px] bg-[url('/header.png')] bg-cover bg-center rounded-xl">
         <div className="w-full flex flex-col items-center gap-6">
           {/* Hey, Dream Chaser! 🚀 */}

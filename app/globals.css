@@ -53,6 +53,9 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: rgb(var(--foreground-rgb));
   background: #f7f6ef;
 }
@@ -198,10 +201,10 @@ body {
   background-color: #d7fbbe;
 }
 
-.book_a_call_white:hover {
-  -webkit-box-shadow: 0px 0px 0px 4px #abbeaf;
-  -moz-box-shadow: 0px 0px 0px 4px #abbeaf;
-  box-shadow: 0px 0px 0px 4px #abbeaf;
+.project_library_btn:hover {
+  -webkit-box-shadow: 0px 0px 0px 4px #effadf;
+  -moz-box-shadow: 0px 0px 0px 4px #effadf;
+  box-shadow: 0px 0px 0px 4px #effadf;
 }
 
 .book_a_call_green:hover {
