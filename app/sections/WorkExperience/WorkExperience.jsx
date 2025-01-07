@@ -1,4 +1,4 @@
-import Button from "@components/Button";
+import ExploreMoreBtn from "@components/Buttons/ExploreMoreBtn";
 import Container from "@components/Container";
 
 export default function WorkExperience() {
@@ -15,13 +15,7 @@ export default function WorkExperience() {
               </p>
             </div>
             <div>
-              <Button
-                label="Explore more"
-                labelClass="text-[#00432B] text-lg font-rocGroteskMid text-lg leading-7 tracking-[-0.72px]"
-                link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
-                linkTarget="_blank"
-                className="flex items-center justify-between gap-[10px] py-2 px-4 bg-transparent border border-[#00432B] rounded-md"
-              />
+              <ExploreMoreBtn link="/my-story" target="" />
             </div>
           </div>
 

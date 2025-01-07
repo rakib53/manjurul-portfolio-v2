@@ -1,6 +1,6 @@
 import peoples from "@public/peoples.png";
-import Button from "app/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Partnership = () => {
   return (
@@ -19,14 +19,13 @@ const Partnership = () => {
               solutions—let’s make it happen together!
             </p>
           </div>
-          <div className="flex justify-center space-x-4 pt-[40px]">
-            <Button
-              label="Book a call"
-              link="https://cal.com/manjurul"
-              linkTarget="_blank"
-              labelClass={"text-[#F7F6EF] text-lg"}
-              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-[#00432B] hover:bg-[#00411c] rounded-md"
-              icon={
+          <div className="flex justify-center items-center space-x-4 pt-[40px]">
+            <Link
+              href="https://cal.com/manjurul"
+              target="_"
+              className="w-[160px] flex items-center justify-between py-2 px-4 bg-[#00432B] rounded-md text-[#F7F6EF] text-lg group transition-all duration-300 font-rocGroteskMid book_a_call_green"
+            >
+              <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -42,16 +41,32 @@ const Partnership = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              }
-              iconPosition="left"
-            />
-            <Button
-              label="Project library"
-              link="https://cal.com/manjurul"
-              linkTarget="_blank"
-              labelClass={"text-[#00432B] text-lg"}
-              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-[#F7F6EF] rounded-md"
-              icon={
+              </span>
+              <span>Book a call</span>
+              <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
+                <svg
+                  stroke="#ffff"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1.5em"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </Link>
+
+            <Link
+              href="https://www.behance.net/manjuruldesign"
+              target="_"
+              className="w-[190px] flex items-center justify-between py-2 px-4 bg-[#F7F6EF] rounded-md text-[#00432B] text-lg group transition-all duration-300 font-rocGroteskMid book_a_call_white"
+            >
+              <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -67,9 +82,25 @@ const Partnership = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              }
-              iconPosition="left"
-            />
+              </span>
+              <span>Project library</span>
+              <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
+                <svg
+                  stroke="#00432B"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1.5em"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </Link>
           </div>
         </div>
       </div>

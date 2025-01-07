@@ -1,8 +1,8 @@
 import inline_image from "@public/inline_image.png";
 import { behance, dribble, linkedin } from "@utils/SVG";
-import Button from "app/components/Button";
 import SocialButton from "app/components/SocialButton";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -41,13 +41,12 @@ export default function Banner() {
 
           {/* Button  */}
           <div className="flex items-center gap-4 mt-6 pb-[110px]">
-            <Button
-              label="Book a call"
-              link="https://cal.com/manjurul"
-              linkTarget="_blank"
-              labelClass={"text-[#00432B] text-lg"}
-              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-[#F7F6EF] hover:bg-[#dddcd5] rounded-md"
-              icon={
+            <Link
+              href="https://cal.com/manjurul"
+              target="_"
+              className="w-[160px] flex items-center justify-between py-2 px-4 bg-[#F7F6EF] border border-[#B9F49B] rounded-md text-[#00432B] text-lg group transition-all duration-300 font-rocGroteskMid book_a_call_white"
+            >
+              <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -63,16 +62,32 @@ export default function Banner() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              }
-              iconPosition="left"
-            />
-            <Button
-              label="My resume"
-              labelClass="text-[#B9F49B] text-lg"
-              link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
-              linkTarget="_blank"
-              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-[#EDFDDE1A] border border-[#B9F49B] rounded-md"
-              icon={
+              </span>
+              <span>Book a call</span>
+              <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
+                <svg
+                  stroke="#00432B"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1.5em"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </Link>
+
+            <Link
+              href="https://drive.google.com/file/d/19mzhsmOTDttj0kBzWfMW4aHLupHPfGv3/view?usp=sharing"
+              target="_"
+              className="w-[160px] flex items-center justify-between py-2 px-4 bg-[#EDFDDE1A] hover:bg-[#D7FBBE] hover:text-[#00432B] border border-[#B9F49B] rounded-md text-[#B9F49B] text-lg group transition-all duration-300 font-rocGroteskMid my_resume"
+            >
+              <span className="max-w-[1.5em] opacity-100 group-hover:max-w-0 group-hover:opacity-0 transition-all duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -83,14 +98,30 @@ export default function Banner() {
                   <path
                     d="M10.9167 2.01978H13.1667C14.5668 2.01978 15.2669 2.01978 15.8016 2.29226C16.272 2.53194 16.6545 2.91439 16.8942 3.3848C17.1667 3.91958 17.1667 4.61964 17.1667 6.01978V14.6864C17.1667 16.0866 17.1667 16.7866 16.8942 17.3214C16.6545 17.7918 16.272 18.1743 15.8016 18.414C15.2669 18.6864 14.5668 18.6864 13.1667 18.6864H7.83333C6.4332 18.6864 5.73314 18.6864 5.19836 18.414C4.72795 18.1743 4.3455 17.7918 4.10582 17.3214C3.83333 16.7866 3.83333 16.0866 3.83333 14.6864V14.1031M13.8333 11.1864H10.0833M13.8333 7.85311H10.9167M13.8333 14.5198H7.16667M5.5 8.68644V4.10311C5.5 3.41275 6.05964 2.85311 6.75 2.85311C7.44036 2.85311 8 3.41275 8 4.10311V8.68644C8 10.0672 6.88071 11.1864 5.5 11.1864C4.11929 11.1864 3 10.0672 3 8.68644V5.35311"
                     stroke="#B9F49B"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
-              }
-              iconPosition="left"
-            />
+              </span>
+              <span>My resume</span>
+              <span className="max-w-0 opacity-0 group-hover:max-w-[1.5em] group-hover:opacity-100 transition-all duration-300">
+                <svg
+                  stroke="#00432B"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1.5em"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </Link>
           </div>
 
           {/* Social links */}

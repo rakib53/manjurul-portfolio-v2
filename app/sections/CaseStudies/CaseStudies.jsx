@@ -1,8 +1,8 @@
+import ExploreMoreBtn from "@components/Buttons/ExploreMoreBtn";
 import case_study1 from "@public/case_study/1.png";
 import case_study2 from "@public/case_study/2.png";
 import case_study3 from "@public/case_study/3.png";
 import case_study4 from "@public/case_study/4.png";
-import Button from "app/components/Button";
 import Container from "app/components/Container";
 import CaseStudiesCard from "./CaseStudiesCard";
 
@@ -18,12 +18,9 @@ export default function CaseStudies() {
             </p>
           </div>
           <div>
-            <Button
-              label="Explore more"
-              labelClass="text-[#00432B] text-lg font-rocGroteskMid text-lg leading-7 tracking-[-0.72px]"
-              link="https://www.youtube.com/watch?v=Pu_71gLGegk&feature=youtu.be"
-              linkTarget="_blank"
-              className="flex items-center justify-between gap-[10px] py-2 px-4 bg-transparent border border-[#00432B] rounded-md"
+            <ExploreMoreBtn
+              link="https://www.behance.net/manjuruldesign"
+              target="_"
             />
           </div>
         </div>
