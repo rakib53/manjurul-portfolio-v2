@@ -1,22 +1,19 @@
 "use client";
-import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
-import ArticleCard from "./ArticleCard";
 import { nextSliderIcon, prevSliderIcon } from "@utils/SVG";
+import { Navigation, Pagination } from "swiper/modules";
+import ArticleCard from "./ArticleCard";
 
 export default function ArticleSlider({ blog }) {
   const { items } = blog;
-
-  console.log(items);
 
   return (
     <>

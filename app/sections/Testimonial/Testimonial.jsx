@@ -1,41 +1,68 @@
+import Carlos_Gomez from "@public/testimonials_clients/Carlos_Gomez.png";
+import Emily_Ross from "@public/testimonials_clients/Emily_Ross.png";
+import Ethan_Wilson from "@public/testimonials_clients/Ethan_Wilson.png";
+import Linda_Brown from "@public/testimonials_clients/Linda_Brown.png";
+import Mohammad_Rahman from "@public/testimonials_clients/Mohammad_Rahman.png";
+import Sophia_Kim from "@public/testimonials_clients/Sophia_Kim.png";
+import Tom_Harris from "@public/testimonials_clients/Tom_Harris.png";
 import ContinuesSlider from "app/components/ContinuesSlider/ContinuesSlider";
 
 const linkedinTestimonials = [
   {
     description:
-      "I am writing to highly recommend Md Manjurul Islam for any future UI/UX design opportunities. I had the pleasure of working closely with Manjurul during our recent project, where he served as the UI/UX designer.  Manjurul consistently impressed me with his exceptional design skills and innovative approach to user interface and experience. His attention to detail, creativity, and ability to translate complex concepts into user-friendly designs significantly contributed to the project's success.  As the project lead, I appreciated Manjurul's collaborative nature and his commitment to meeting deadlines. He demonstrated excellent communication skills, ensuring a smooth flow of information between the design team and other project stakeholders.  In addition to his technical expertise, Manjurul's positive attitude and dedication to producing high-quality work make him an asset to any team. I am confident that he would excel in any design role and bring a valuable perspective to any project.",
-    name: "Khandoker Kafi Anan",
-    company: "Pink Decoder",
-    title: "Product Developer",
-    profile:
-      "https://media.licdn.com/dms/image/D5603AQGQKsNmJnzMwQ/profile-displayphoto-shrink_100_100/0/1711799973661?e=1722470400&v=beta&t=7jEEtVfpiDQAJvEBjS81_McCZ5qQ0dyCgq_VU3hPCis",
+      "Manjurul’s creativity brought a fresh perspective to our project. His designs were well-researched and thoughtfully executed. He maintained great communication throughout and was always open to feedback. The result was an exceptional interface that is already receiving praise from users.",
+    name: "Mohammad Rahman",
+    company: "Founder, Farisha Foods",
+    title: "",
+    profile: Mohammad_Rahman,
   },
   {
     description:
-      "I had the pleasure of working with Manjurul as a UI/UX Designer. His enthusiasm for learning and a strong sense of design made him a valuable team member. Manjurul's attention to detail and creative problem-solving significantly improved our projects. I highly recommend him for his dedication and skill in UI/UX design.",
-    name: "Nazmul Haque shanto",
-    company: "MyAlice",
-    title: "UI/UX Designer",
-    profile:
-      "https://media.licdn.com/dms/image/D5603AQGODh81EyiRMg/profile-displayphoto-shrink_100_100/0/1698227611303?e=1722470400&v=beta&t=Te2CVBYduuHypAusATewBkgrSpOJ5gEl4ifXZFPCqEk",
+      "I was impressed by how effortlessly Manjurul handled our project. From understanding the brief to delivering high-quality designs, he demonstrated a deep understanding of product design. The final result was exactly what we hoped for and more. I wouldn’t hesitate to hire him again.",
+    name: "Tom Harris",
+    company: "CEO at ExploreNow",
+    title: "",
+    profile: Tom_Harris,
   },
   {
     description:
-      "It is my pleasure to wholeheartedly recommend Md Manjurul Islam based on our collaborative experience. I had the privilege of working closely with Manjurul on multiple projects/ideas and his prowess in UI/UX design left an indelible mark on our project.  Manjurul possesses an exceptional blend of creativity and dedication, consistently delivering designs that seamlessly merge innovation with practicality. His attention to detail is unparalleled, and the quality of his work consistently surpassed our expectations.  Throughout our collaboration, Manjurul demonstrated a profound understanding of user experience principles, translating intricate concepts into visually captivating and user-friendly designs. What sets Manjurul apart is not just his technical proficiency but also his effective communication and collaboration skills. Always open to feedback, he promptly incorporated changes, ensuring that our final product not only met but exceeded both client requirements and end-users' expectations.  Beyond his technical acumen, Manjurul is a joy to work with. His positive attitude, strong work ethic, and commitment to staying abreast of the latest design trends and technologies make him an invaluable asset to any team.  In conclusion, I highly recommend Md Manjurul Islam for his outstanding UI/UX design skills. His passion for excellence and collaborative approach make him an ideal choice for any project. Feel free to reach out if you require additional information or have any questions.",
-    name: "Sabuj kundu",
-    company: "Codeboxr",
-    title: "Founder & CEO",
-    profile:
-      "https://media.licdn.com/dms/image/D4E03AQGFDNX4Q_i5aw/profile-displayphoto-shrink_100_100/0/1639717468588?e=1722470400&v=beta&t=e_16c5bXKE5Y8mDVPYv8SyDtlMfwPU8oKB-AkStgzAc",
+      "It was a pleasure working with Manjurul. His designs are elegant, intuitive, and perfectly aligned with user needs. What stood out was his dedication to perfection—he worked tirelessly to fine-tune every element. I’m excited to see how his designs resonate with our audience.",
+    name: "Carlos Gomez",
+    company: "Founder of EduPro",
+    title: "",
+    profile: Carlos_Gomez,
   },
   {
     description:
-      "I had the pleasure of studying with Md Manjurul Islam on the Bangladesh Learning and Earning Development Project where he get strong skills and attention to detail. Md Manjurul Islam was great knowledge about problem-solving and take quick decisions. We are together doing several assignments for our internship. I would highly recommend him to anyone looking for a reliable and skilled UI/UX Designer.",
-    name: "Md. Tohiduzzman",
-    company: "Upwork",
-    title: "Expert in Banner Ads Design",
-    profile:
-      "https://media.licdn.com/dms/image/D4E35AQGpEIX7YoRUEg/profile-framedphoto-shrink_100_100/0/1700496683396?e=1717740000&v=beta&t=BxcCfrg18FsE2VT077PhkM_0JffGmNnPNxJlqJqdWpY",
+      "Manjurul’s design expertise made a huge difference for our app. He understood our requirements thoroughly and delivered designs that aligned perfectly with our goals. The documentation and design system were top-notch, ensuring seamless integration for our developers. It was a pleasure working with him.",
+    name: "Sophia Kim",
+    company: "Head of Design at HealthEase",
+    title: "",
+    profile: Sophia_Kim,
+  },
+  {
+    description:
+      "I highly recommend Manjurul to anyone looking for a skilled and reliable designer. He transformed our platform into an intuitive and visually stunning experience. His communication was excellent throughout the project, and he consistently delivered on time. The final product is already receiving great feedback from our users. ",
+    name: "Ethan Wilson",
+    company: "Co-Founder at FinGrow",
+    title: "",
+    profile: Ethan_Wilson,
+  },
+  {
+    description:
+      "Working with Manjurul was a fantastic experience. He quickly understood our vision and transformed it into a beautiful, functional design. His insights into user behavior were invaluable, and he delivered beyond what we expected. Communication was smooth, and the process was stress-free.",
+    name: "Emily Ross",
+    company: "COO at StartupHub",
+    title: "",
+    profile: Emily_Ross,
+  },
+  {
+    description:
+      "Manjurul delivered exactly what we envisioned and more. His attention to detail and ability to create user-friendly designs impressed our entire team. The handoff process was seamless, with all assets well-organized and ready to implement. His professionalism and creativity are remarkable, and I can’t wait to work with him.",
+    name: "Linda Brown",
+    company: "Marketing Director at GreenLeaf",
+    title: "",
+    profile: Linda_Brown,
   },
 ];
 
@@ -53,17 +80,21 @@ export default function Testimonial() {
       <div className="flex flex-col gap-12">
         <ContinuesSlider
           width={690}
+          mobileWidth={690}
           gap={16}
           contents={linkedinTestimonials}
           animationDuration={30}
+          mobileAnimationDuration={30}
           prefix="testimonialOne"
         />
 
         <ContinuesSlider
           width={690}
+          mobileWidth={690}
           gap={16}
           contents={linkedinTestimonials}
           animationDuration={30}
+          mobileAnimationDuration={30}
           prefix="testimonialTwo"
           reverse={true}
         />

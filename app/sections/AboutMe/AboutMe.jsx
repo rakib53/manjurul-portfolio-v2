@@ -17,7 +17,7 @@ export default function AboutMe() {
             />
           </div>
           <div className="flex flex-col gap-10 w-1/2 pr-10">
-            <h3 className="sectionTitle !text-left">
+            <h3 className="sectionTitle !text-left text-[#1D2939]">
               Product designer with Design systems expertise.
             </h3>
             <p className="sectionDesc !text-left">
@@ -105,7 +105,7 @@ export default function AboutMe() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard1">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
-              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
+              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 5+
               </h3>
               <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
@@ -116,7 +116,7 @@ export default function AboutMe() {
 
           <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard2">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
-              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
+              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 120+
               </h3>
               <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
@@ -127,7 +127,7 @@ export default function AboutMe() {
 
           <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard3">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
-              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
+              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 500+
               </h3>
               <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
@@ -138,7 +138,7 @@ export default function AboutMe() {
 
           <div className="w-full h-[360px] p-6 rounded-[20px] bg-[#F2F4F5] relative overflow-hidden experienceCard4">
             <div className="flex flex-col gap-[18px] absolute bottom-[24px] left-[24px]">
-              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-gray900">
+              <h3 className="text-[72px] leading-[90px] font-rocGroteskMid text-[#255E4A]">
                 350+
               </h3>
               <p className="text-base leading-6 text-gray600 font-rocGroteskMid">
