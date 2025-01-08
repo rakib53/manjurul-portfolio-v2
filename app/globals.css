@@ -131,18 +131,20 @@ body {
     #2b2f38;
   box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4) inset;
 }
-
 .socialBtn {
-  border-radius: 82px;
+  border-radius: 72px;
+  border: 1.5px solid #ffff;
   background: linear-gradient(
       180deg,
-      rgba(240, 241, 243, 0.3) 0%,
-      rgba(240, 241, 243, 0) 100%
+      rgba(255, 255, 255, 0.3) 100%,
+      rgba(255, 255, 255, 0.3) 70%,
+      rgba(255, 255, 255, 0.3) 30%,
+      rgba(255, 255, 255, 0) 0%
     ),
-    #fff;
-  box-shadow: 0px 0px 7px 2px #f0f1f3 inset;
+    #ffff;
+  transition: all 0.3s linear;
 }
-.behanceBtn {
+.behanceBtn:hover {
   border-radius: 72px;
   border: 1.5px solid #216fff;
   background: linear-gradient(
@@ -151,9 +153,12 @@ body {
       rgba(255, 255, 255, 0) 100%
     ),
     #1869ff;
-  box-shadow: 0px 0px 4px 2px rgba(25, 103, 246, 0.4) inset;
+  -webkit-box-shadow: 0px 0px 0px 4px #1a64ae;
+  -moz-box-shadow: 0px 0px 0px 4px #1a64ae;
+  box-shadow: 0px 0px 0px 4px #1a64ae;
+  transition: all 0.3s linear;
 }
-.dribbleBtn {
+.dribbleBtn:hover {
   border-radius: 72px;
   border: 1.5px solid #ff72a2;
   background: linear-gradient(
@@ -162,9 +167,12 @@ body {
       rgba(255, 255, 255, 0) 100%
     ),
     #ee6996;
-  box-shadow: 0px 0px 4px 2px rgba(248, 109, 156, 0.4) inset;
+  -webkit-box-shadow: 0px 0px 0px 4px #9e6174;
+  -moz-box-shadow: 0px 0px 0px 4px #9e6174;
+  box-shadow: 0px 0px 0px 4px #9e6174;
+  transition: all 0.3s linear;
 }
-.linkedinBtn {
+.linkedinBtn:hover {
   border-radius: 72px;
   border: 1.5px solid #3679ca;
   background: linear-gradient(
@@ -173,20 +181,11 @@ body {
       rgba(255, 255, 255, 0) 100%
     ),
     #2867b2;
-  box-shadow: 0px 0px 4px 2px #2675d3 inset;
+  -webkit-box-shadow: 0px 0px 0px 4px #25648a;
+  -moz-box-shadow: 0px 0px 0px 4px #25648a;
+  box-shadow: 0px 0px 0px 4px #25648a;
+  transition: all 0.3s linear;
 }
-.mediumBtn {
-  border-radius: 52px;
-  border: 1.5px solid var(--Gray-700, #48505e);
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.3) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    #16171b;
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4) inset;
-}
-
 .explore_btn:hover {
   -webkit-box-shadow: 0px 0px 0px 4px rgba(237, 253, 226, 1);
   -moz-box-shadow: 0px 0px 0px 4px rgba(237, 253, 226, 1);

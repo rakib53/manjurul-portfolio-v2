@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 
 export default function SocialButton({
   icon,
@@ -9,17 +8,10 @@ export default function SocialButton({
   labelClass,
   href,
 }) {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => setIsHovered(true);
-  const handleMouseLeave = () => setIsHovered(false);
-
   return (
     <a
       href={href}
       target="_blank"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       className={`socialBtn transition duration-300 ease-linear p-3 w-[44px] h-[44px] ${
         isHovered && hoverClass
       } ${className}`}
