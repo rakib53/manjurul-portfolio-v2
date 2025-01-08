@@ -11,7 +11,7 @@ export default function MyStoryBanner() {
           </div>
 
           <div className="w-full flex flex-col">
-            <h1 className="text-[#F7F6EF] font-rocGroteskReg text-[54px] text-center">
+            <h1 className="text-[#F7F6EF] font-rocGroteskReg text-[54px] text-center tracking-[-2.7px]">
               My{" "}
               <strong className="text-[#B9F49B] font-rocGroteskBold">
                 journey

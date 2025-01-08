@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
+export default function CaseStudiesCard({ link, thumbnail }) {
   return (
     <div className="w-full h-fit rounded-2xl overflow-hidden">
       <div className="max-h-[445px] h-full">
@@ -8,43 +8,15 @@ export default function CaseStudiesCard({ cardNumber, link, thumbnail }) {
           href={link || ""}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full h-full"
+          className="block w-full h-full overflow-hidden"
         >
           <Image
             src={thumbnail}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-110 transition-all duration-300"
             alt="thumbnail"
           />
         </a>
       </div>
-
-      {/* <div className="p-6 pr-4 bg-white flex justify-between gap-[90px]">
-        <h2 className="text-[50px] leading-[60px] text-gray100 font-rocGroteskMid">
-          {cardNumber}
-        </h2>
-        <div className="flex flex-col gap-5 items-center">
-          <h3 className="text-[20px] leading-8 text-gray900 font-rocGroteskBold">
-            A SaaS platform for seamless coding for programmers
-          </h3>
-          <hr className="w-full border-[0.83px] border-[#E3E5E8]" />
-          <div className="w-full flex !justify-between gap-2">
-            <Button
-              label="Read case study"
-              labelClass="flex justify-center"
-              link={link || ""}
-              linkTarget="_blank"
-              className="w-full orange_btn flex items-center justify-between gap-[10px] py-2 px-4"
-            />
-            <Button
-              label="Live preview"
-              labelClass="text-dark"
-              className="w-full white_btn flex items-center justify-center gap-[10px] py-2 px-4 opacity-50 cursor-not-allowed"
-              icon={eyeIcon}
-              iconPosition="left"
-            />
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

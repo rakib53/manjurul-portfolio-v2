@@ -12,7 +12,7 @@ export default function MyStory() {
           <h1 className="text-[36px] text-[#1D2939] font-rocGroteskBold leading-10 tracking-[-1.08px] pb-4">
             My Story
           </h1>
-          <p className="text-[#344054] text-lg font-rocGroteskReg tracking-[0.54px]">
+          <p className="text-[#344054] text-lg font-rocGroteskReg tracking-[-0.54px]">
             Hello, I’m Md Manjurul Islam, hailing from Satkhira, Bangladesh. My
             design journey began in 2019 when I started as a Content Designer at
             a marketing agency. Later, I transitioned to freelancing on Upwork,
