@@ -19,9 +19,10 @@ export default function MyAchievement() {
             <div>
               <Image src={upwork} alt="" className="rounded-xl" />
             </div>
-            <div className="flex items-center p-3 bg-[#00432B] rounded-[10px]">
-              <h3 className="text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
-                Won Upwork Top rated badge
+            <div className="flex items-center justify-center p-3 bg-[#00432B] rounded-[10px]">
+              <h3 className="flex justify-center text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
+                Won Upwork <br />
+                Top rated badge
               </h3>
             </div>
           </div>
@@ -30,9 +31,9 @@ export default function MyAchievement() {
             <div>
               <Image src={fiverr} alt="" className="rounded-xl" />
             </div>
-            <div className="flex items-center p-3 bg-[#00432B] rounded-[10px]">
-              <h3 className="text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
-                Selected for Fiverr Top landing page award
+            <div className="flex items-center justify-center p-3 bg-[#00432B] rounded-[10px]">
+              <h3 className="flex justify-center text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
+                Selected for Fiverr <br /> Top landing page award
               </h3>
             </div>
           </div>
@@ -41,9 +42,9 @@ export default function MyAchievement() {
             <div>
               <Image src={google} alt="" className="rounded-xl" />
             </div>
-            <div className="flex items-center p-3 bg-[#00432B] rounded-[10px] h-full">
-              <h3 className="text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
-                Certified From Google
+            <div className="flex items-center justify-center p-3 bg-[#00432B] rounded-[10px] h-full">
+              <h3 className="flex justify-center text-[#B9F49B] text-center text-2xl font-rocGroteskBold">
+                Certified <br /> From Google
               </h3>
             </div>
           </div>

@@ -9,12 +9,12 @@ const Partnership = () => {
         <div className="w-full flex justify-center">
           <Image src={peoples} alt="" />
         </div>
-        <div className="flex flex-col max-w-[750px]">
+        <div className="flex flex-col">
           <div>
-            <h3 className="sectionTitle">
+            <h3 className="font-rocGroteskBold text-[50px] leading-[72px] text-[#101828] tracking-[-1.5px] mb-3">
               Partnered with leading <br /> innovators & drive business growth.
             </h3>
-            <p className="sectionDesc !text-gray700">
+            <p className="font-rocGroteskReg text-2xl text-[#344054] tracking-[-0.48px]">
               Discover how we can transform your vision into impactful <br />
               solutions—let’s make it happen together!
             </p>

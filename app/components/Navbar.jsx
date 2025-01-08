@@ -46,13 +46,13 @@ export default function Navbar() {
           <li
             className={`${
               whatPage === "home"
-                ? "bg-white py-2 px-4 rounded-md"
-                : "py-2 px-4 rounded-md"
+                ? "bg-white py-2 px-4 rounded-md text-[#101828]"
+                : "py-2 px-4 rounded-md text-[#7C7C7C]"
             }`}
           >
             <Link
               href="/"
-              className="text-sm text-[#101828] opacity-85 font-rocGroteskMid tracking-[ 0.56px]"
+              className="block w-[65px] text-center text-sm opacity-85 font-rocGroteskMid tracking-[ 0.56px]"
             >
               Home
             </Link>
@@ -60,13 +60,13 @@ export default function Navbar() {
           <li
             className={`${
               whatPage === "my-story"
-                ? "bg-white py-2 px-4 rounded-md"
-                : "py-2 px-4 rounded-md"
+                ? "bg-white py-2 px-4 rounded-md text-[#101828]"
+                : "py-2 px-4 rounded-md text-[#7C7C7C]"
             }`}
           >
             <Link
               href="my-story"
-              className="text-sm text-[#7C7C7C] opacity-85 font-rocGroteskMid tracking-[ 0.56px]"
+              className="block w-[65px] text-center text-sm opacity-85 font-rocGroteskMid tracking-[ 0.56px]"
             >
               My story
             </Link>
