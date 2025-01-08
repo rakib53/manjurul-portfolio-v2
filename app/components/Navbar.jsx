@@ -34,7 +34,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto py-5">
+    <div className="w-full max-w-[1440px] px-6 mx-auto py-5">
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col text-gray800 text-lg leading-7 tracking-[0.305px] font-rocGroteskBold">
           <Link href="/" className="">

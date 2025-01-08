@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <section className="w-full max-w-[1440px] mx-auto pb-6">
+    <section className="w-full max-w-[1440px] px-6 mx-auto pb-6">
       <div className="footer bg-dark rounded-b-xl">
         <div className="py-[56px] sm:py-[116px]">
           <div className="flex flex-col gap-1">

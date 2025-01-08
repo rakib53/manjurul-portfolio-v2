@@ -83,8 +83,8 @@ export default function Testimonial() {
           mobileWidth={690}
           gap={16}
           contents={linkedinTestimonials}
-          animationDuration={30}
-          mobileAnimationDuration={30}
+          animationDuration={40}
+          mobileAnimationDuration={40}
           prefix="testimonialOne"
         />
 
@@ -93,8 +93,8 @@ export default function Testimonial() {
           mobileWidth={690}
           gap={16}
           contents={linkedinTestimonials}
-          animationDuration={30}
-          mobileAnimationDuration={30}
+          animationDuration={40}
+          mobileAnimationDuration={40}
           prefix="testimonialTwo"
           reverse={true}
         />

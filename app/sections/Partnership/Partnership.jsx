@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Partnership = () => {
   return (
-    <section className="w-full max-w-[1440px] mx-auto flex flex-col items-center text-center">
+    <section className="w-full max-w-[1440px] px-6 mx-auto flex flex-col items-center text-center">
       <div className="partnership py-[120px] flex flex-col gap-11 items-center">
         <div className="w-full flex justify-center">
           <Image src={peoples} alt="" />
@@ -15,7 +15,7 @@ const Partnership = () => {
               Partnered with leading <br /> innovators & drive business growth.
             </h3>
             <p className="sectionDesc !text-gray700">
-              Discover how we can transform your vision into impactful
+              Discover how we can transform your vision into impactful <br />
               solutions—let’s make it happen together!
             </p>
           </div>

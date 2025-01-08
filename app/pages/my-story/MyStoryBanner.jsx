@@ -1,6 +1,6 @@
 export default function MyStoryBanner() {
   return (
-    <section className="w-full max-w-[1440px] mx-auto">
+    <section className="w-full max-w-[1440px] px-6 mx-auto">
       <div className="bg-[url('/header.png')] bg-no-repeat bg-cover bg-center rounded-xl py-[170px]">
         <div className="flex flex-col gap-6">
           {/* Behind the Screens */}

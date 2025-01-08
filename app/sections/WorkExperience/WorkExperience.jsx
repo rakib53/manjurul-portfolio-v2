@@ -38,7 +38,7 @@ export default function WorkExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   Synergy Labs is a #1 Boutique Mobile App Development Agency
                   according to Clutch, The Manifest, and Forbes based in Miami,
@@ -81,7 +81,7 @@ export default function WorkExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   Invisible Studio is a user experience agency based in Mumbai,
                   specializing in building SaaS, IoT, and DeFi products. As a
@@ -131,7 +131,7 @@ export default function WorkExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   Pexlo is a service-based design agency founded on a deep
                   commitment to creativity and innovation. As a Product Designer

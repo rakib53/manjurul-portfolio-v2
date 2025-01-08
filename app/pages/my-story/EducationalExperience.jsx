@@ -2,7 +2,7 @@ import Container from "@components/Container";
 
 export default function EducationalExperience() {
   return (
-    <section className="w-full max-w-[1440px] mx-auto my-3">
+    <section className="w-full max-w-[1440px] px-6 mx-auto my-3">
       <div className="bg-white py-[100px] rounded-xl">
         <Container>
           <div className="flex justify-between">
@@ -37,7 +37,7 @@ export default function EducationalExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   National University is one of the leading educational
                   institutions in Bangladesh, offering comprehensive academic
@@ -77,7 +77,7 @@ export default function EducationalExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   Cantonment College, Jashore, established in 1969 in Arabpur,
                   Jashore, is a prestigious institution regulated by the
@@ -121,7 +121,7 @@ export default function EducationalExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px]">
+              <div className="text-[#344054] text-xl leading-[31px] tracking-[-0.6px] font-rocGroteskReg">
                 <span>
                   Nakipur H.C. Pilot Model Govt. High School is one of the
                   oldest and most prestigious educational institutions in the

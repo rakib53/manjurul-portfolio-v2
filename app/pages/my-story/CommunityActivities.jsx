@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function CommunityActivities() {
   return (
-    <section className="w-full max-w-[1440px] mx-auto pb-6">
+    <section className="w-full max-w-[1440px] px-6 mx-auto pb-6">
       <div className="w-full py-[20px] sm:py-[100px] bg-white rounded-xl">
         <Container>
           <div className="mb-[56px]">
