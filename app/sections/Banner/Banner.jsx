@@ -9,7 +9,7 @@ export default function Banner() {
         <div className="w-full flex flex-col items-center gap-6">
           {/* Hey, Dream Chaser! 🚀 */}
           <div className="flex justify-center">
-            <span className="inline-block py-[18px] px-[25px] text-center bg-[#173E34] rounded-full font-rocGroteskMid text-xl tracking-[-0.4px]">
+            <span className="inline-block py-[18px] px-[25px] text-center bg-[#173E34] text-white rounded-full font-rocGroteskMid text-xl tracking-[-0.4px]">
               Hey, Dream Chaser! 🚀
             </span>
           </div>

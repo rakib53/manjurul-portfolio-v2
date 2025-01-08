@@ -16,7 +16,7 @@ export default function MyStoryBanner() {
               <strong className="text-[#B9F49B] font-rocGroteskBold">
                 journey
               </strong>{" "}
-              to becoming a product <br /> designer, along with my
+              to becoming a product <br /> designer, along with my{" "}
               <strong className="text-[#B9F49B] font-rocGroteskBold">
                 activities{" "}
               </strong>{" "}
